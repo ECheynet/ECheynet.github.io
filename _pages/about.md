@@ -2,33 +2,75 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Associate Professor · Geophysical Institute · University of Bergen
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: profile.png
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p><a href="https://www4.uib.no/en/find-employees/etienne.cheynet">University of Bergen</a></p>
+    <p><a href="https://www4.uib.no/en/forskning/forskningssentre/bergen-offshore-wind-centre-bow">Bergen Offshore Wind Centre</a></p>
+    <p>Allégaten 55, Bergen, Norway</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+
+_styles: |
+  .lead-copy {
+    font-size: 1.08rem;
+    line-height: 1.75;
+  }
+  .metric-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
+    gap: 0.8rem;
+    margin: 1.75rem 0 2rem;
+  }
+  .metric-card {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.6rem;
+    padding: 1rem;
+    text-align: center;
+  }
+  .metric-card strong {
+    color: var(--global-theme-color);
+    display: block;
+    font-size: 1.55rem;
+    line-height: 1.1;
+    margin-bottom: 0.25rem;
+  }
+  .focus-list li {
+    margin-bottom: 0.6rem;
+  }
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<div class="lead-copy" markdown="1">
+I study **atmospheric turbulence, wind engineering, and experimental meteorology**, with applications in offshore wind energy, bridge aerodynamics, and atmospheric measurement techniques. My work combines field observations, remote sensing, numerical methods, and structural dynamics to connect atmospheric science with engineering practice.
+</div>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I lead and contribute to interdisciplinary research at the [Geophysical Institute](https://www.uib.no/en/gfi) and the [Bergen Offshore Wind Centre](https://www4.uib.no/en/forskning/forskningssentre/bergen-offshore-wind-centre-bow). I place particular emphasis on reproducible research, open data, reusable software, and the practical value of scientific results.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<div class="metric-grid" aria-label="Academic profile at a glance">
+  <div class="metric-card"><strong>34</strong>journal articles</div>
+  <div class="metric-card"><strong>8</strong>PhD candidates supervised</div>
+  <div class="metric-card"><strong>18</strong>MSc students supervised</div>
+  <div class="metric-card"><strong>55+</strong>open research outputs</div>
+</div>
+
+## research focus
+
+<ul class="focus-list">
+  <li><strong>Atmospheric turbulence:</strong> structure, coherence, spectra, and non-neutral boundary layers.</li>
+  <li><strong>Wind energy:</strong> offshore wind resources, metocean conditions, wakes, and turbine loading.</li>
+  <li><strong>Measurement science:</strong> scanning Doppler lidar, sonic anemometry, and drone-based sensing.</li>
+  <li><strong>Structural dynamics:</strong> full-scale monitoring, system identification, and bridge aerodynamics.</li>
+</ul>
+
+[Explore the research themes →]({% link _pages/research.md %})
