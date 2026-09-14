@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /supervision/
-title: supervision
+title: Supervision
 description: PhD and MSc research supervision in wind engineering, meteorology, energy, and sustainability.
 nav: true
 nav_order: 3
@@ -13,7 +13,7 @@ pretty_table: true
 
 My supervision spans engineering, geoscience, energy systems, and interdisciplinary sustainability. I aim to combine methodological rigour, independent thinking, open research practices, and a supportive research environment.
 
-## current PhD candidates
+## Current PhD candidates
 
 | Candidate        |       Period | Role            | Institution                | Topic                                                                           |
 | ---------------- | -----------: | --------------- | -------------------------- | ------------------------------------------------------------------------------- |
@@ -22,7 +22,7 @@ My supervision spans engineering, geoscience, energy systems, and interdisciplin
 | Yuanchen Wan     | 2024–present | Main supervisor | UiB                        | Wind loading on parabolic solar collector arrays                                |
 | Rebeca Marini    | 2023–present | Co-supervisor   | Vrije Universiteit Brussel | Full-scale wind turbine performance analysis                                    |
 
-## completed and recent PhD supervision
+## Completed and recent PhD supervision
 
 | Candidate                |    Period | Role          | Institution | Topic                                                                |
 | ------------------------ | --------: | ------------- | ----------- | -------------------------------------------------------------------- |
@@ -31,7 +31,7 @@ My supervision spans engineering, geoscience, energy systems, and interdisciplin
 | Rieska Putri             | 2018–2023 | Co-supervisor | UiS         | Atmospheric stratification and offshore wind-turbine response        |
 | Nicolò Daniotti          | 2018–2022 | Co-supervisor | UiS         | Full-scale aerodynamic properties of a suspension bridge             |
 
-## current MSc students
+## Current MSc students
 
 | Student               |       Period | Role            | Institution | Topic                                                                              |
 | --------------------- | -----------: | --------------- | ----------- | ---------------------------------------------------------------------------------- |
@@ -42,7 +42,7 @@ My supervision spans engineering, geoscience, energy systems, and interdisciplin
 | Julie Kaldestad-Aasen | 2026–present | Co-supervisor   | UiB         | Waves in the marine atmospheric boundary layer from lidar observations             |
 | Bendik Voldseth       | 2025–present | Main supervisor | UiB         | Extreme weather events and insurance risk assessment for wind farms                |
 
-## completed MSc supervision
+## Completed MSc supervision
 
 | Student                  |    Period | Role            | Institution    | Topic                                                                         |
 | ------------------------ | --------: | --------------- | -------------- | ----------------------------------------------------------------------------- |
@@ -59,7 +59,7 @@ My supervision spans engineering, geoscience, energy systems, and interdisciplin
 | Fahim Masud Ahmed        | 2022–2023 | Co-supervisor   | UiB            | Low-level jet height and wind-turbine loads                                   |
 | Julie-Ann Marie Knight   | 2018–2019 | Co-supervisor   | UiS            | Unstable turbulence and floating offshore wind-turbine loads                  |
 
-## researcher mentorship
+## Researcher mentorship
 
 - **Stephan Kral** (postdoctoral researcher, UiB, 2024–present): scientific guidance on validation of hindcast databases within the LOWT project.
 - **Zakari Midjiyawa** (PhD researcher, NTNU/MET, 2020–2021): intensive mentorship in wind engineering, contributing to two peer-reviewed publications and progress toward PhD completion.

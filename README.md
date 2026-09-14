@@ -12,3 +12,7 @@ The site presents research themes, projects, PhD and MSc supervision, publicatio
 - Replace `assets/pdf/CV_Cheynet_2026.pdf` when a new CV is released, and update the filename references in `_data/socials.yml` and `_pages/cv.md` if the year changes.
 
 Changes pushed to `main` are built and published automatically by the deployment workflow.
+
+Use British English for original website copy and sentence case with an initial capital for page and section headings. Preserve the published spelling of publication titles.
+
+See [CONTENT_GAPS.md](CONTENT_GAPS.md) for the prioritised content backlog.

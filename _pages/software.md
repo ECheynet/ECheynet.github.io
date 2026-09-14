@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /software/
-title: software & data
+title: Software & Data
 description: Open tools and datasets for wind engineering, atmospheric turbulence, and structural dynamics.
 nav: true
 nav_order: 5
@@ -13,7 +13,7 @@ Open and reproducible research is central to my work. I have released more than 
 - [MATLAB File Exchange profile](https://se.mathworks.com/matlabcentral/fileexchange/?q=profileid%3A4608373)
 - [ORCID research record](https://orcid.org/0000-0002-4854-1469)
 
-## selected repositories
+## Selected repositories
 
 {% if site.data.repositories.github_repos %}
 
@@ -24,7 +24,7 @@ Open and reproducible research is central to my work. I have released more than 
 </div>
 {% endif %}
 
-## research software themes
+## Research software themes
 
 - **Turbulence simulation:** multivariate wind-field generation, non-Gaussian turbulence, and Mann-model implementations.
 - **Operational modal analysis:** automated frequency, damping, and mode-shape identification from ambient vibration data.

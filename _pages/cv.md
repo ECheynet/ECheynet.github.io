@@ -12,19 +12,19 @@ toc:
 
 [**Download the complete CV (PDF)**]({{ '/assets/pdf/CV_Cheynet_2026.pdf' | relative_url }})
 
-## current appointments
+## Current appointments
 
 - **Associate Professor**, Geophysical Institute, University of Bergen (2022–present)
 - **Visiting Professor**, Dalian University of Technology (2025–2028)
 - **Associate Editor**, _Wind Energy Science_ (2024–present)
 
-## education
+## Education
 
 - **PhD**, University of Stavanger, 2013–2016<br>
   _Wind-induced vibrations of a suspension bridge: A case study in full-scale_
 - **MSc**, ISAE-ENSMA, France, 2009–2012
 
-## academic experience
+## Academic experience
 
 |       Period | Position                | Institution             |
 | -----------: | ----------------------- | ----------------------- |
@@ -33,7 +33,7 @@ toc:
 |    2016–2019 | Postdoctoral Researcher | University of Stavanger |
 |    2013–2016 | PhD Candidate           | University of Stavanger |
 
-## leadership and service
+## Leadership and service
 
 - Lead of UiB's wind-engineering thematic group, coordinating an interdisciplinary team across resource assessment, turbulence modelling, structural dynamics, and atmospheric sensing.
 - Steering Committee member for UiB's Master's Programme in Sustainability.
@@ -41,7 +41,7 @@ toc:
 - External or internal examiner for PhD and MSc candidates, and member or chair of academic appointment committees.
 - Organiser of research workshops and academia–industry events in offshore wind energy.
 
-## recognition and open-science activity
+## Recognition and open-science activity
 
 - More than 55 open datasets, software tools, and related outputs released through open repositories.
 - 60 MATLAB File Exchange toolboxes with more than 53,600 downloads.

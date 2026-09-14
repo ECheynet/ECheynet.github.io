@@ -12,3 +12,5 @@ related_publications: false
 **Total funding:** approximately NOK 19 million
 
 BEL-Float supports research and innovation for floating offshore wind. My contribution centres on Norwegian–Belgian research collaboration and doctoral co-supervision in full-scale wind-turbine performance and metocean conditions.
+
+[BEL-Float project website](https://www.owi-lab.be/projects/bel-float)

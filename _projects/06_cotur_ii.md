@@ -1,7 +1,7 @@
 ---
 layout: page
 title: COTUR II
-description: Analysis and interpretation of synchronized lidar measurements of offshore turbulence.
+description: Analysis and interpretation of synchronised lidar measurements of offshore turbulence.
 importance: 1
 category: completed
 related_publications: false
@@ -14,3 +14,5 @@ related_publications: false
 COTUR II transformed the COTUR observational database into methods and scientific results relevant to offshore wind-energy applications.
 
 I served as co-designer and principal scientific expert, leading the data analysis and interpretation and coordinating UiB's scientific delivery.
+
+[Read the COTUR research article](https://doi.org/10.5194/amt-14-6137-2021)

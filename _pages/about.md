@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Associate Professor · Geophysical Institute · University of Bergen
 
@@ -64,7 +64,7 @@ I lead and contribute to interdisciplinary research at the [Geophysical Institut
   <div class="metric-card"><strong>55+</strong>open research outputs</div>
 </div>
 
-## research focus
+## Research focus
 
 <ul class="focus-list">
   <li><strong>Atmospheric turbulence:</strong> structure, coherence, spectra, and non-neutral boundary layers.</li>

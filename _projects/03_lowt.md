@@ -14,3 +14,5 @@ related_publications: false
 LOWT investigates how non-neutral atmospheric conditions affect the wind field and structural response of large offshore wind turbines.
 
 I co-designed the proposal and formulated central research directions concerning atmospheric turbulence, field observations, and the link between measured inflow conditions and structural loading.
+
+[LOWT project announcement at UiB](https://www.uib.no/en/bow/146173/bow-project-received-funding)

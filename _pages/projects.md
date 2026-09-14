@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: Selected national, international, and industry-connected research projects.
 nav: true
@@ -11,7 +11,7 @@ horizontal: true
 
 <div class="projects">
 {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}"><h2 class="category">{{ category }}</h2></a>
+  <a id="{{ category }}" href=".#{{ category }}"><h2 class="category">{{ category | capitalize }}</h2></a>
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <div class="container">
