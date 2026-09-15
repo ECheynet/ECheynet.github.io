@@ -1,6 +1,6 @@
 # Academic website of Etienne Cheynet
 
-This repository contains the source for [echeynet.github.io](https://echeynet.github.io/), the academic website of Etienne Cheynet, Associate Professor at the University of Bergen.
+This repository contains the source for [echeynet.github.io](https://echeynet.github.io/).
 
 The site presents research themes, projects, PhD and MSc supervision, publications, teaching, open software, datasets, and a downloadable CV. It is built with the [al-folio](https://github.com/alshedivat/al-folio) Jekyll starter and deployed through GitHub Pages.
 
