@@ -2,15 +2,15 @@
 layout: page
 title: BEL-Float
 description: Connecting Belgian industrial expertise and academic innovation in floating offshore wind.
-importance: 4
-category: ongoing
-related_publications: false
+importance: 0
+category: completed
+related_publications: true
 ---
 
-**Period:** 2023–2026  
-**Type:** Academia–industry research and development initiative  
-**Total funding:** approximately NOK 19 million
+- **Period:** November 2023 – October 2026
+- **Programme:** Belgian Energy Transition Fund
+- **Total budget:** approximately €2.00 million, including €1.60 million in funding
 
-BEL-Float supports research and innovation for floating offshore wind. My contribution centres on Norwegian–Belgian research collaboration and doctoral co-supervision in full-scale wind-turbine performance and metocean conditions.
+BEL-Float supported research and innovation for floating offshore wind. My contribution centred on Norwegian–Belgian research collaboration and doctoral co-supervision in full-scale wind-turbine performance and metocean conditions {% cite marini2025assessment %}.
 
 [BEL-Float project website](https://www.owi-lab.be/projects/bel-float)

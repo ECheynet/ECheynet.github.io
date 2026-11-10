@@ -4,10 +4,10 @@ This list records useful additions that still require source material, verificat
 
 ## High priority
 
-- **Publication complements:** add abstracts, open-access PDFs, and links to associated code and datasets where licences permit. DOI coverage is now broad, but these richer al-folio fields are largely empty.
+- **Publication complements:** extend the new open PDF, BibTeX and dataset links to other publications where verified resources are available.
 - **Project identifiers:** add funder award numbers and authoritative project records for Machine Wind, UiB–DUT collaboration, COTUR II, and Floating Wind Power Production where public records exist.
-- **Teaching materials:** link the ENERGI230 lecture notes and course repositories if they are publicly available, and add official pages for the remaining courses where useful.
-- **Durable supervision links:** connect completed PhD and MSc projects to institutional thesis records where those records are public.
+- **Teaching materials:** link the ENERGI230 lecture notes and course repositories if they are publicly available. Verify a public course record for ENERGI360 and OFF905.
+- **Durable supervision links:** extend the doctoral links to other completed PhD and MSc projects where institutional records are public. Confirm end dates against the supervisor's records where profiles disagree.
 
 ## Medium priority
 
@@ -19,7 +19,12 @@ This list records useful additions that still require source material, verificat
 ## Site operations
 
 - **Search visibility:** configure Google Search Console or another privacy-conscious search-verification service.
-- **Social previews:** provide a dedicated Open Graph image for consistent link previews.
 - **Freshness:** review time-sensitive counts, appointments, student lists, publication status, and project dates at least twice a year.
 - **Legacy traffic:** add redirects from important pages on the former Wind Engineering website if analytics or search results show continued use.
 - **Profile image:** replace the temporary GitHub avatar when a suitable portrait is available; deliberately deferred for now.
+
+## Template features kept optional
+
+- The CV remains an accessible HTML summary with the authoritative LaTeX-generated PDF. Do not enable the sample RenderCV or JSONResume layouts without replacing their demo data.
+- A research news archive and feed cover announcements. A separate blog, people directory, bookshelf, comments, analytics, newsletter and interactive media are not needed until there is real content or a configured service.
+- Per-paper Scholar badges require verified publication IDs; the public Scholar profile is already linked. The upstream comments integration expects demo posts and is not a production-site check.

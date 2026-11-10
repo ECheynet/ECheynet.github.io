@@ -2,7 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # keep blank to use the name as the website title
+title: Etienne Cheynet
+author: Etienne Cheynet
 first_name: Etienne
 middle_name:
 last_name: Cheynet
@@ -86,6 +87,13 @@ al_folio:
 # -----------------------------------------------------------------------------
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
+feed:
+  path: /feed.xml
+  collections:
+    news:
+      path: /feed.xml
+    posts:
+      path: /feed/posts.xml
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -108,7 +116,7 @@ max_width: 1000px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+og_image: /assets/img/social-preview.png
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -139,7 +147,7 @@ lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false # There is no blog archive; research updates use the news collection.
 
 related_blog_posts:
   enabled: false
@@ -217,11 +225,26 @@ kramdown:
 include: ["_pages"]
 exclude:
   - _books/
-  - _news/
   - _posts/
   - _teachings/
   - AGENTS.md
+  - CONTENT_GAPS.md
   - al-folio-upgrade-report.md
+  - assets/audio/
+  - assets/bibliography/
+  - assets/html/
+  - assets/img/[0-9]*.jpg
+  - assets/img/book_covers/
+  - assets/img/prof_pic.jpg
+  - assets/img/prof_pic_color.png
+  - assets/img/publication_preview/
+  - assets/img/rhino.png
+  - assets/img/star-history-*.svg
+  - assets/img/template_error.png
+  - assets/json/
+  - assets/pdf/example_pdf.pdf
+  - assets/rendercv/
+  - assets/video/
   - bin/
   - CLAUDE.md
   - Dockerfile
@@ -238,6 +261,8 @@ exclude:
   - purgecss.config.js
   - README.md
   - readme_preview/
+  - requirements.txt
+  - test/
   - gems/
   - migrations/
   - vendor
@@ -375,7 +400,7 @@ scholar:
 enable_publication_badges:
   altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
   dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
-  google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
+  google_scholar: false # Enable once real per-publication Scholar IDs are maintained.
   inspirehep: false # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output

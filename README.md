@@ -8,8 +8,11 @@ The site presents research themes, projects, PhD and MSc supervision, publicatio
 
 - Edit the Markdown files in `_pages/` for main page content.
 - Add or update project files in `_projects/`.
+- Add dated research updates in `_news/`; they appear on the home page, the news archive and its Atom feed.
 - Update the BibTeX files in `_bibliography/` to maintain the publication list.
-- Replace `assets/pdf/CV_Cheynet_2026.pdf` when a new CV is released, and update the filename references in `_data/socials.yml` and `_pages/cv.md` if the year changes.
+- Keep the HTML summary in `_pages/cv.md` and the accompanying LaTeX-generated PDF in sync. If the PDF filename changes, update the links in `_pages/cv.md`.
+- Edit `_data/repositories.yml` to update the selected software links. The list is rendered locally so it does not depend on a badge service.
+- The source for the site's social preview is `docs/social-preview.svg`. Regenerate the PNG with `inkscape docs/social-preview.svg --export-filename=assets/img/social-preview.png` after editing it.
 
 Changes pushed to `main` are built and published automatically by the deployment workflow.
 

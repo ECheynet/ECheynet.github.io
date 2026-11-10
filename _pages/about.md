@@ -13,11 +13,10 @@ profile:
     <p><a href="https://www4.uib.no/en/forskning/forskningssentre/bergen-offshore-wind-centre-bow">Bergen Offshore Wind Centre</a></p>
     <p>Allégaten 55, Bergen, Norway</p>
 
-selected_papers: true
 social: true
 
 announcements:
-  enabled: false
+  limit: 3
 
 latest_posts:
   enabled: false
@@ -42,8 +41,8 @@ _styles: |
   .metric-card strong {
     color: var(--global-theme-color);
     display: block;
-    font-size: 1.55rem;
-    line-height: 1.1;
+    font-size: 1.15rem;
+    line-height: 1.25;
     margin-bottom: 0.25rem;
   }
   .focus-list li {
@@ -58,10 +57,10 @@ I study **atmospheric turbulence, wind engineering, and experimental meteorology
 I lead and contribute to interdisciplinary research at the [Geophysical Institute](https://www.uib.no/en/gfi) and the [Bergen Offshore Wind Centre](https://www4.uib.no/en/forskning/forskningssentre/bergen-offshore-wind-centre-bow). I place particular emphasis on reproducible research, open data, reusable software, and the practical value of scientific results.
 
 <div class="metric-grid" aria-label="Academic profile at a glance">
-  <div class="metric-card"><strong>34</strong>journal articles</div>
-  <div class="metric-card"><strong>8</strong>PhD candidates supervised</div>
-  <div class="metric-card"><strong>18</strong>MSc students supervised</div>
-  <div class="metric-card"><strong>55+</strong>open research outputs</div>
+  <div class="metric-card"><strong><a href="{{ '/publications/' | relative_url }}">Publications</a></strong>Papers, proceedings and reports</div>
+  <div class="metric-card"><strong><a href="{{ '/projects/' | relative_url }}">Projects</a></strong>Current and completed research</div>
+  <div class="metric-card"><strong><a href="{{ '/supervision/' | relative_url }}">Supervision</a></strong>PhD and MSc research</div>
+  <div class="metric-card"><strong><a href="{{ '/software/' | relative_url }}">Software and data</a></strong>Open research resources</div>
 </div>
 
 ## Research focus
@@ -74,3 +73,15 @@ I lead and contribute to interdisciplinary research at the [Geophysical Institut
 </ul>
 
 [Explore the research themes →]({% link _pages/research.md %})
+
+## News
+
+{% include news.liquid limit=true %}
+
+[All research updates]({% link _pages/news.md %})
+
+## Selected publications
+
+{% include selected_papers.liquid %}
+
+[Browse all publications]({% link _pages/publications.md %})

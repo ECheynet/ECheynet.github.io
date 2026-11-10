@@ -14,16 +14,16 @@ toc:
 
 - **[ENERGI230 — Environment and Energy](https://www4.uib.no/en/studies/courses/energi230)** (UiB, 2023–present; 10 ECTS)
 - **[ENERGI321 — Offshore Wind Energy, Part 1](https://www4.uib.no/en/studies/courses/energi321)** (UiB, 2023–present; 5 ECTS)
-- **ENERGI322 — Offshore Wind Energy, Part 2** (UiB, 2023–2025; 5 ECTS)
-- **ENERGI101 — Introduction to Energy Resources and Use** (UiB, 2020; 10 ECTS)
+- **[ENERGI322 — Offshore Wind Energy, Part 2](https://www4.uib.no/en/studies/courses/energi322)** (UiB, 2023–2025; 5 ECTS)
+- **[ENERGI101 — Introduction to Energy Resources and Consumption](https://www4.uib.no/en/studies/courses/energi101)** (UiB, 2020; 10 ECTS)
 
 ## Lecturing
 
 - **[SDG309 — Interdisciplinary Perspectives on Sustainability](https://www4.uib.no/en/studies/courses/sdg309)** (UiB, 2026–present; 20 ECTS)
-- **SDG310 — Interdisciplinary Approaches to Sustainability** (2022–2025)
-- **SDG207 — Energy Transition** (guest lecturer, 2022–2026)
+- **[SDG310 — Introduction: Interdisciplinary Approaches to Sustainable Development](https://www4.uib.no/en/studies/courses/sdg310)** (2022–2025)
+- **[SDG207 — Energy Transition](https://www4.uib.no/en/studies/courses/sdg207)** (guest lecturer, 2022–2026)
 - **ENERGI360 — Wind Turbine Technology** (2022–2023)
-- **ENERGI102 — Life Cycle Assessment** (guest lecturer, 2024)
+- **[ENERGI102 — Life Cycle Assessment](https://www4.uib.no/en/studies/courses/energi102)** (guest lecturer, 2024)
 - **OFF905 — PhD Project Course in Structural Engineering** (UiS, 2019)
 
 ## Curriculum development
@@ -35,5 +35,5 @@ I completed UiB's 200-hour university-pedagogy pathway (UPED 600–602), with ad
 ## Open educational resources
 
 - [Introduction to Offshore Wind Energy](https://www4.uib.no/en/studies/online-studies/natural-sciences-and-mathematics/introduction-to-offshore-wind-energy), an online continuing-education course at UiB.
-- [UiB master's thesis LaTeX template](https://www.overleaf.com/latex/templates/template-uib-master-2024/mhhmndkkhkfh), used to create more than 1,280 student projects since its release.
+- [UiB master's thesis LaTeX template](https://www.overleaf.com/latex/templates/template-uib-master-2024/mhhmndkkhkfh), available on Overleaf.
 - Reproducible examples and teaching code are available through [GitHub](https://github.com/ECheynet).

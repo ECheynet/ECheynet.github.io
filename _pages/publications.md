@@ -7,7 +7,7 @@ nav: true
 nav_order: 4
 ---
 
-The bibliography below is generated from the same BibTeX records used for my academic CV. Use the search field to filter by title, author, venue, or year. Citation profiles are available through the icons in the navigation bar and at the bottom of the home page.
+Use the search field to filter publications and other research outputs by title, author, venue or year. Preprints and submitted work are labelled where applicable. Selected records include an open PDF or a BibTeX citation. See also my [ORCID record](https://orcid.org/0000-0002-4854-1469) and [Google Scholar profile](https://scholar.google.com/citations?user=dpbpYlsAAAAJ).
 
 {% include bib_search.liquid %}
 

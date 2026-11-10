@@ -7,9 +7,9 @@ category: ongoing
 related_publications: false
 ---
 
-**Period:** 2024–2028  
-**Programme:** Marie Skłodowska-Curie Actions Doctoral Network  
-**Total funding:** approximately NOK 37 million
+- **Period:** September 2024 – August 2028
+- **Programme:** Marie Skłodowska-Curie Actions Doctoral Network (grant 101168855)
+- **EU contribution:** approximately €3.18 million
 
 NEXTgenT is an international doctoral-training and research network focused on the next generation of very large offshore wind-turbine rotors.
 

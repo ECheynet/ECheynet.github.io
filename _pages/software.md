@@ -7,22 +7,24 @@ nav: true
 nav_order: 5
 ---
 
-Open and reproducible research is central to my work. I have released more than 55 datasets, software packages, and related research outputs through GitHub and Zenodo, alongside 60 MATLAB File Exchange contributions with more than 53,600 downloads.
+I release research software and datasets through GitHub, Zenodo and MATLAB File Exchange. The resources below support wind engineering, atmospheric measurements and structural dynamics.
 
 - [Browse all GitHub repositories](https://github.com/ECheynet?tab=repositories)
-- [MATLAB File Exchange profile](https://se.mathworks.com/matlabcentral/fileexchange/?q=profileid%3A4608373)
+- [MATLAB File Exchange profile](https://www.mathworks.com/matlabcentral/fileexchange/?q=profileid%3A4608373)
 - [ORCID research record](https://orcid.org/0000-0002-4854-1469)
 
 ## Selected repositories
 
-{% if site.data.repositories.github_repos %}
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
+<ul>
+  {% for repo in site.data.repositories.selected %}
+    <li><a href="https://github.com/{{ repo.path }}">{{ repo.path | split: '/' | last }}</a> — {{ repo.description | escape }}</li>
   {% endfor %}
-</div>
-{% endif %}
+</ul>
+
+## Open datasets
+
+- [LOLLEX vertical line-of-sight lidar velocities](https://doi.org/10.5281/zenodo.20929085) and [ship-based wind-speed profiles](https://doi.org/10.5281/zenodo.20811676) — data for the offshore wind-farm lidar campaign.
+- [Tall wind-profile validation data](https://doi.org/10.5281/zenodo.14848924) — the dataset behind the figures comparing ERA5, NORA3 and NEWA with lidar observations.
 
 ## Research software themes
 

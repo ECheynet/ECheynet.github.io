@@ -24,12 +24,12 @@ My supervision spans engineering, geoscience, energy systems, and interdisciplin
 
 ## Completed and recent PhD supervision
 
-| Candidate                |    Period | Role          | Institution | Topic                                                                |
-| ------------------------ | --------: | ------------- | ----------- | -------------------------------------------------------------------- |
-| Shokoufeh Malekmohammadi | 2021–2026 | Co-supervisor | UiB         | Ship-based wind lidar measurements for offshore wind-energy research |
-| Mauro Ghirardelli        | 2021–2024 | Co-supervisor | UiB         | Development and testing of a drone-based sonic anemometer system     |
-| Rieska Putri             | 2018–2023 | Co-supervisor | UiS         | Atmospheric stratification and offshore wind-turbine response        |
-| Nicolò Daniotti          | 2018–2022 | Co-supervisor | UiS         | Full-scale aerodynamic properties of a suspension bridge             |
+| Candidate                |    Period | Role          | Institution | Topic                                                                                                             |
+| ------------------------ | --------: | ------------- | ----------- | ----------------------------------------------------------------------------------------------------------------- |
+| Shokoufeh Malekmohammadi | 2021–2026 | Co-supervisor | UiB         | Ship-based wind lidar measurements for offshore wind-energy research                                              |
+| Mauro Ghirardelli        | 2021–2024 | Co-supervisor | UiB         | [Development and testing of a drone-based sonic anemometer system](https://hdl.handle.net/11250/3170691)          |
+| Rieska Putri             | 2018–2023 | Co-supervisor | UiS         | [Atmospheric stratification and offshore wind-turbine response](https://hdl.handle.net/11250/3093439)             |
+| Nicolò Daniotti          | 2018–2022 | Co-supervisor | UiS         | [Full-scale aerodynamic properties of a suspension bridge](https://ebooks.uis.no/index.php/USPS/catalog/book/165) |
 
 ## Current MSc students
 

@@ -4,7 +4,7 @@ title: COTUR
 description: Measuring coherence and turbulence with synchronised Doppler wind lidars.
 importance: 3
 category: completed
-related_publications: false
+related_publications: true
 ---
 
 **Period:** 2018–2020  
@@ -13,6 +13,6 @@ related_publications: false
 
 COTUR investigated the measurement of offshore turbulence using synchronised long-range Doppler wind lidars at Obrestad.
 
-As a scientific expert, I helped redirect the project when it encountered measurement and methodological challenges. The resulting work developed practical lidar-deployment strategies and methods for interpreting spatial turbulence measurements.
+As a scientific expert, I helped redirect the project when it encountered measurement and methodological challenges. The resulting work developed practical lidar-deployment strategies and methods for interpreting spatial turbulence measurements {% cite cheynet2021cotur %}.
 
-[COTUR project page at NORCE](https://www.norceresearch.no/en/projects/measuring-coherence-and-turbulence-with-lidars-cotur) · [Research article](https://doi.org/10.5194/amt-14-6137-2021)
+[COTUR project page at NORCE](https://www.norceresearch.no/en/projects/measuring-coherence-and-turbulence-with-lidars-cotur)

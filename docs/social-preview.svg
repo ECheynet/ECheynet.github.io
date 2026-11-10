@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#0b2032" />
+      <stop offset="1" stop-color="#10454f" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#background)" />
+  <g fill="none" stroke="#81e1d0" stroke-width="2" opacity=".3">
+    <path d="M-80 520 C240 390 414 665 776 472 S1117 246 1300 324" />
+    <path d="M-80 544 C240 414 414 689 776 496 S1117 270 1300 348" />
+    <path d="M-80 568 C240 438 414 713 776 520 S1117 294 1300 372" />
+    <path d="M-80 592 C240 462 414 737 776 544 S1117 318 1300 396" />
+    <path d="M-80 616 C240 486 414 761 776 568 S1117 342 1300 420" />
+  </g>
+  <rect x="82" y="114" width="74" height="5" rx="2" fill="#81e1d0" />
+  <g font-family="DejaVu Sans, sans-serif">
+    <text x="80" y="180" fill="#a8e9de" font-size="25" letter-spacing="2">UNIVERSITY OF BERGEN</text>
+    <text x="78" y="284" fill="#ffffff" font-size="82" font-weight="700">Etienne Cheynet</text>
+    <text x="82" y="359" fill="#e2f4f3" font-size="32">Atmospheric turbulence · Wind engineering</text>
+    <text x="82" y="576" fill="#ffffff" font-size="25">echeynet.github.io</text>
+  </g>
+</svg>

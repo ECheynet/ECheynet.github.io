@@ -1,14 +1,17 @@
-github_users:
-  - ECheynet
-
-repo_description_lines_max: 3
-
-github_repos:
-  - ECheynet/SSICOV
-  - ECheynet/AFDD
-  - ECheynet/windSimFast
-  - ECheynet/windSim_textBased
-  - ECheynet/NORA3
-  - ECheynet/TurbulenceLengthScales
-  - ECheynet/dynaRespTD
-  - ECheynet/LOLLEX_KHB
+selected:
+  - path: ECheynet/SSICOV
+    description: Covariance-driven stochastic subspace identification for operational modal analysis.
+  - path: ECheynet/AFDD
+    description: Automated frequency domain decomposition for modal identification.
+  - path: ECheynet/windSimFast
+    description: Fast simulation of turbulent wind fields.
+  - path: ECheynet/windSim_textBased
+    description: Text-based examples for simulating turbulent wind fields.
+  - path: ECheynet/NORA3
+    description: Tools for working with the Norwegian NORA3 atmospheric hindcast.
+  - path: ECheynet/TurbulenceLengthScales
+    description: Examples of how to estimate turbulence length scales.
+  - path: ECheynet/dynaRespTD
+    description: Time-domain calculation of structural dynamic response.
+  - path: ECheynet/LOLLEX_KHB
+    description: Analysis of Kelvin–Helmholtz billows observed during LOLLEX.

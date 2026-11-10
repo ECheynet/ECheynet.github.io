@@ -21,7 +21,7 @@ toc:
 ## Education
 
 - **PhD**, University of Stavanger, 2013–2016<br>
-  _Wind-induced vibrations of a suspension bridge: A case study in full-scale_
+  [_Wind-induced vibrations of a suspension bridge: A case study in full-scale_](https://hdl.handle.net/11250/2425472)
 - **MSc**, ISAE-ENSMA, France, 2009–2012
 
 ## Academic experience
