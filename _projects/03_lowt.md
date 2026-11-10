@@ -15,6 +15,8 @@ related_publications: true
 
 LOWT investigates how non-neutral atmospheric conditions affect the wind field and structural response of large offshore wind turbines.
 
-I co-designed the proposal and formulated central research directions concerning atmospheric turbulence, field observations, and the link between measured inflow conditions and structural loading. One output compares tall wind profiles from ERA5, NORA3 and NEWA with lidar observations {% cite cheynet2025tall %}.
+I co-designed the proposal and formulated central research directions concerning atmospheric turbulence, field observations, and the link between measured inflow conditions and structural loading.
 
-[Research Council of Norway project record (325294)](https://prosjektbanken.forskningsradet.no/en/project/FORISS/325294)
+My publications linked to LOWT in the Norwegian Research Information Repository (NVA) cover tall wind profiles and stable boundary layers {% cite cheynet2025tall vogt2025stable %}, metocean conditions at Norwegian and Belgian offshore sites {% cite cheynet2024metocean marini2025assessment %}, and wind–wave misalignment for a parked floating turbine {% cite marini2026misalignment %}.
+
+[NVA project record and outputs](https://nva.sikt.no/projects/2709130) · [Research Council of Norway project record (325294)](https://prosjektbanken.forskningsradet.no/en/project/FORISS/325294)
