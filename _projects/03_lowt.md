@@ -7,6 +7,8 @@ category: ongoing
 related_publications: true
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/publication-covers.css' | relative_url }}">
+
 - **Period:** 2021–2026 (funder record)
 - **Programme:** Research Council of Norway FRIPRO
 - **Total funding:** approximately NOK 12 million

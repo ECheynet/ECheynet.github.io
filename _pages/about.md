@@ -82,6 +82,8 @@ I lead and contribute to interdisciplinary research at the [Geophysical Institut
 
 ## Selected publications
 
+<link rel="stylesheet" href="{{ '/assets/css/publication-covers.css' | relative_url }}">
+
 {% include selected_papers.liquid %}
 
 [Browse all publications]({% link _pages/publications.md %})

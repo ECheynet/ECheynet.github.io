@@ -7,6 +7,8 @@ category: completed
 related_publications: true
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/publication-covers.css' | relative_url }}">
+
 - **Period:** November 2023 – October 2026
 - **Programme:** Belgian Energy Transition Fund
 - **Total budget:** approximately €2.00 million, including €1.60 million in funding

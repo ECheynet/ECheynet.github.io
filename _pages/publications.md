@@ -7,11 +7,15 @@ nav: true
 nav_order: 4
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/publication-covers.css' | relative_url }}">
+
 Use the search field to filter publications and other research outputs by title, author, venue or year. Preprints and submitted work are labelled where applicable. Selected records include an open PDF or a BibTeX citation. See also my [ORCID record](https://orcid.org/0000-0002-4854-1469) and [Google Scholar profile](https://scholar.google.com/citations?user=dpbpYlsAAAAJ).
+
+Thumbnails show representative venue covers where available, not necessarily the issue in which a paper appeared.
 
 {% include bib_search.liquid %}
 
-<div class="publications">
+<div class="publications publications-list">
 
 {% bibliography %}
 

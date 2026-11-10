@@ -1,0 +1,36 @@
+.publications ol.bibliography > li > .row {
+  display: grid;
+  grid-template-columns: clamp(3rem, 13vw, 6rem) minmax(0, 1fr);
+  align-items: start;
+  gap: clamp(0.75rem, 2.5vw, 1.5rem);
+  margin-inline: 0;
+}
+
+.publications ol.bibliography > li > .row > * {
+  min-width: 0;
+  width: auto;
+  max-width: none;
+  padding-inline: 0;
+}
+
+.publications ol.bibliography > li .abbr {
+  margin-bottom: 0;
+}
+
+.publications ol.bibliography > li .abbr figure {
+  margin: 0;
+}
+
+.publications ol.bibliography > li img.preview {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 4;
+  object-fit: contain;
+}
+
+.publications-list ol.bibliography > li:not(:last-child) {
+  border-bottom: 1px solid var(--global-divider-color);
+  padding-bottom: 1.25rem;
+  margin-bottom: 1.25rem;
+}

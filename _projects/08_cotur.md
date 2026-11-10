@@ -7,6 +7,8 @@ category: completed
 related_publications: true
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/publication-covers.css' | relative_url }}">
+
 **Period:** 2018–2020  
 **Type:** Industry research collaboration  
 **Funding:** approximately NOK 3.9 million
