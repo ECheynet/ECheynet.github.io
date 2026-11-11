@@ -7,6 +7,7 @@ on:
       - main
     paths:
       - "assets/**"
+      - ".github/scripts/**"
       - "**.bib"
       - "**.html"
       - "**.js"
@@ -34,6 +35,7 @@ on:
       - main
     paths:
       - "assets/**"
+      - ".github/scripts/**"
       - "**.bib"
       - "**.html"
       - "**.js"
@@ -91,12 +93,18 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
-      - name: Install and Build 🔧
+      - name: Install build prerequisites 🔧
+        timeout-minutes: 6
         run: |
-          sudo apt-get update && sudo apt-get install -y imagemagick
-          pip3 install --upgrade nbconvert
-          export JEKYLL_ENV=production
-          bundle exec jekyll build
+          sudo bash .github/scripts/configure-apt-mirrors.sh
+          apt_options=(-o Acquire::Retries=1 -o Acquire::http::Timeout=15 -o Acquire::https::Timeout=15)
+          sudo timeout 120s apt-get "${apt_options[@]}" update
+          sudo timeout 180s apt-get "${apt_options[@]}" install -y --no-install-recommends imagemagick
+          python -m pip install --upgrade --retries 2 --timeout 15 nbconvert
+      - name: Build the academic site
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss

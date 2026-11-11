@@ -20,6 +20,7 @@ on:
       - "package.json"
       - "package-lock.json"
       - ".github/workflows/unit-tests.yml"
+      - ".github/scripts/**"
   pull_request:
     branches:
       - master
@@ -39,6 +40,7 @@ on:
       - "package.json"
       - "package-lock.json"
       - ".github/workflows/unit-tests.yml"
+      - ".github/scripts/**"
 
 permissions:
   contents: read
@@ -74,10 +76,17 @@ jobs:
       - name: Run style contract lint 🧷
         run: npm run lint:style-contract
 
+      - name: Test CI mirror configuration
+        run: python -m unittest discover -s test -p test_ci_apt.py
+
       - name: Install build prerequisites 🔧
+        timeout-minutes: 6
         run: |
-          sudo apt-get update && sudo apt-get install -y imagemagick
-          pip3 install --upgrade nbconvert
+          sudo bash .github/scripts/configure-apt-mirrors.sh
+          apt_options=(-o Acquire::Retries=1 -o Acquire::http::Timeout=15 -o Acquire::https::Timeout=15)
+          sudo timeout 120s apt-get "${apt_options[@]}" update
+          sudo timeout 180s apt-get "${apt_options[@]}" install -y --no-install-recommends imagemagick
+          python -m pip install --upgrade --retries 2 --timeout 15 nbconvert
 
       - name: Check formatting
         run: npm run lint:prettier
