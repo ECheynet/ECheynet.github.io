@@ -76,16 +76,13 @@ jobs:
       - name: Run style contract lint 🧷
         run: npm run lint:style-contract
 
-      - name: Test CI mirror configuration
-        run: python -m unittest discover -s test -p test_ci_apt.py
+      - name: Test CI image-tool setup
+        run: python -m unittest discover -s test -p test_ci_image_tools.py
 
       - name: Install build prerequisites 🔧
         timeout-minutes: 6
         run: |
-          sudo bash .github/scripts/configure-apt-mirrors.sh
-          apt_options=(-o Acquire::Retries=1 -o Acquire::http::Timeout=15 -o Acquire::https::Timeout=15)
-          sudo timeout 120s apt-get "${apt_options[@]}" update
-          sudo timeout 180s apt-get "${apt_options[@]}" install -y --no-install-recommends imagemagick
+          bash .github/scripts/install-imagemagick.sh
           python -m pip install --upgrade --retries 2 --timeout 15 nbconvert
 
       - name: Check formatting
