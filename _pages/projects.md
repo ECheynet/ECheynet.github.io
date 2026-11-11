@@ -8,10 +8,10 @@ nav_order: 2
 display_categories: [ongoing, completed]
 horizontal: true
 _styles: |
-  .projects .card-img { width: 100%; height: 160px; object-fit: cover; }
+  .projects .card-img { width: 100%; height: 160px; object-fit: contain; padding: 0.75rem; background: #fff; }
 ---
 
-Grey panels reserve space for future project illustrations.
+Selected projects in offshore wind energy, atmospheric measurements, and research collaboration.
 
 <div class="projects">
 {% for category in page.display_categories %}

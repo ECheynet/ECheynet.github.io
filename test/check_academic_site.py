@@ -3,6 +3,7 @@
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urljoin, urlsplit
+import re
 import sys
 import xml.etree.ElementTree as ET
 
@@ -53,13 +54,19 @@ def main():
             "Education", "CV_Cheynet_2026.pdf")
     require("software/index.html", "/repositories/", "software-grid")
     require("repositories/index.html", "ECheynet", "/api/pin/", "Repository links")
-    require("projects/index.html", "project-placeholder.svg")
+    require("projects/index.html", "projects")
     require("publications/index.html", "publication-covers.css", "altmetric-embed",
             "__dimensions_badge_embed__", "scholar.google.com")
     require("supervision/index.html", "completed-msc-supervision", "nva.sikt.no/registration/")
     require("news/index.html", "Mathilde", "Zuhir", "European Academy of Wind Energy")
     for source in Path("_projects").glob("*.md"):
         require(f"projects/{source.stem}/index.html", "post-title")
+        image = re.search(r"^img:\s*(\S+)\s*$", source.read_text(encoding="utf-8"), re.MULTILINE)
+        if image:
+            image_path = image.group(1)
+            require("projects/index.html", image_path)
+            if not (root / image_path).is_file():
+                failures.append(f"{source}: missing project illustration {image_path}")
     for name in ("cv/index.html", "index.html"):
         if "Albert Einstein" in html.get(root / name, ""):
             failures.append(f"Template identity leaked into {name}")

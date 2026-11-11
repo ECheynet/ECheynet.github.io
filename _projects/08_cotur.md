@@ -1,6 +1,6 @@
 ---
 layout: page
-img: assets/img/project-placeholder.svg
+img: assets/img/projects/cotur.webp
 title: COTUR
 description: Measuring coherence and turbulence with synchronised Doppler wind lidars.
 importance: 3

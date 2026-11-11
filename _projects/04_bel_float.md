@@ -1,6 +1,6 @@
 ---
 layout: page
-img: assets/img/project-placeholder.svg
+img: assets/img/projects/bel-float.webp
 title: BEL-Float
 description: Connecting Belgian industrial expertise and academic innovation in floating offshore wind.
 importance: 0

@@ -1,6 +1,6 @@
 ---
 layout: page
-img: assets/img/project-placeholder.svg
+img: assets/img/projects/machine-wind.webp
 title: Machine Wind
 description: Fast aerodynamic models for offshore wind-farm optimisation using machine learning.
 importance: 1

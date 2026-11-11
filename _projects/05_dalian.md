@@ -1,6 +1,6 @@
 ---
 layout: page
-img: assets/img/project-placeholder.svg
+img: assets/img/projects/uib-dut.webp
 title: UiB–DUT collaboration
 description: Joint research, teaching, and student exchange in offshore wind energy.
 importance: 5
@@ -12,3 +12,5 @@ related_publications: false
 **Programme:** Overseas Visiting Professor Talent Programme, Dalian University of Technology
 
 As a visiting professor at Dalian University of Technology, I contribute to joint research, cross-cultural teaching, curriculum development, and student exchange in offshore wind energy and atmospheric measurement science.
+
+The collaboration illustration is unofficial.

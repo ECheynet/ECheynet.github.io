@@ -1,6 +1,6 @@
 ---
 layout: page
-img: assets/img/project-placeholder.svg
+img: assets/img/projects/nextgent.webp
 title: NEXTgenT
 description: Next-generation rotor design for offshore wind turbines above 25 MW.
 importance: 2
