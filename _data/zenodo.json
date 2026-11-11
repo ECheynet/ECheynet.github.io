@@ -1,0 +1,1314 @@
+{
+  "reviewed_on": "2026-11-11",
+  "source_search": "https://zenodo.org/search?q=metadata.creators.person_or_org.name:%22Cheynet,%20Etienne%22",
+  "expanded_search": "https://zenodo.org/search?q=metadata.creators.person_or_org.name:Cheynet",
+  "identity": "0000-0002-4854-1469",
+  "dataset_groups": ["LOLLEX", "Wind profiles and reanalysis", "Metocean and floating wind", "FINO1 turbulence"],
+  "records": [
+    {
+      "record_id": "22107398",
+      "title": "ECheynet/DaisyWorld: DaisyWorld with greenhouse effect",
+      "type": "software",
+      "doi": "10.5281/zenodo.22107398",
+      "concept_doi": "10.5281/zenodo.6667687",
+      "date": "2026-08-26",
+      "version": "v1.1",
+      "license": "bsd-3-clause",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/DaisyWorld/tree/v1.1",
+          "relation": "isSupplementTo",
+          "resource_type": "software",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/22107398",
+      "github": "ECheynet/DaisyWorld"
+    },
+    {
+      "record_id": "20929085",
+      "title": "Vertical line-of-sight Doppler lidar dataset associated wit the LOLland offshore Lidar EXperiment (LOLLEX)",
+      "type": "dataset",
+      "doi": "10.5281/zenodo.20929085",
+      "concept_doi": "10.5281/zenodo.20929084",
+      "date": "2026-06-26",
+      "version": null,
+      "license": "cc-by-4.0",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "10.5194/egusphere-2025-3148",
+          "relation": "isSupplementTo",
+          "resource_type": "publication-preprint",
+          "scheme": "doi"
+        },
+        {
+          "identifier": "10.11583/DTU.22739729",
+          "relation": "isSupplementedBy",
+          "resource_type": "dataset",
+          "scheme": "doi"
+        }
+      ],
+      "url": "https://zenodo.org/records/20929085",
+      "display_title": "LOLLEX vertical line-of-sight lidar velocities",
+      "group": "LOLLEX",
+      "summary": "Raw vertical-stare Doppler lidar measurements from the vessel-based LOLLEX campaign at and around the Rødsand II offshore wind farm (2022–2023)."
+    },
+    {
+      "record_id": "20811676",
+      "title": "Wind speed profile dataset associated wit the LOLland offshore Lidar EXperiment (LOLLEX)",
+      "type": "dataset",
+      "doi": "10.5281/zenodo.20811676",
+      "concept_doi": "10.5281/zenodo.20811675",
+      "date": "2026-06-23",
+      "version": null,
+      "license": "cc-by-4.0",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "10.5194/egusphere-2025-3148",
+          "relation": "isSupplementTo",
+          "resource_type": "publication-preprint",
+          "scheme": "doi"
+        },
+        {
+          "identifier": "10.11583/DTU.22739729",
+          "relation": "isSupplementedBy",
+          "resource_type": "dataset",
+          "scheme": "doi"
+        }
+      ],
+      "url": "https://zenodo.org/records/20811676",
+      "display_title": "LOLLEX ship-based wind-speed profiles",
+      "group": "LOLLEX",
+      "summary": "Wind profiles and scanning-lidar measurements, accompanied by vessel position and motion data, from the LOLLEX campaign (2022–2023)."
+    },
+    {
+      "record_id": "17311079",
+      "title": "ECheynet/GEV: Short introduction to the Generalized Extreme Values (GEV) distribution",
+      "type": "software",
+      "doi": "10.5281/zenodo.17311079",
+      "concept_doi": "10.5281/zenodo.6421598",
+      "date": "2025-10-10",
+      "version": "v1.2",
+      "license": "bsd-3-clause",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/GEV/tree/v1.2",
+          "relation": "isSupplementTo",
+          "resource_type": "software",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/17311079",
+      "github": "ECheynet/GEV"
+    },
+    {
+      "record_id": "15826678",
+      "title": "Post-processed time series at FINO1 in 2007",
+      "type": "dataset",
+      "doi": "10.5281/zenodo.15826678",
+      "concept_doi": "10.5281/zenodo.15826677",
+      "date": "2025-07-07",
+      "version": null,
+      "license": "cc-by-4.0",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "10.1007/s10546-018-0382-2",
+          "relation": "isDescribedBy",
+          "resource_type": "publication",
+          "scheme": "doi"
+        }
+      ],
+      "url": "https://zenodo.org/records/15826678",
+      "display_title": "FINO1 sonic-anemometer time series: 2007",
+      "group": "FINO1 turbulence",
+      "summary": "Hourly, planar-fit-corrected velocity time series at 40, 60 and 80 m on the FINO1 platform. These are processed data, not the restricted raw recordings."
+    },
+    {
+      "record_id": "15826899",
+      "title": "Post-processed time series at FINO1 in 2008",
+      "type": "dataset",
+      "doi": "10.5281/zenodo.15826899",
+      "concept_doi": "10.5281/zenodo.15826898",
+      "date": "2025-07-07",
+      "version": null,
+      "license": "cc-by-4.0",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "10.1007/s10546-018-0382-2",
+          "relation": "isDescribedBy",
+          "resource_type": "publication",
+          "scheme": "doi"
+        }
+      ],
+      "url": "https://zenodo.org/records/15826899",
+      "display_title": "FINO1 sonic-anemometer time series: 2008",
+      "group": "FINO1 turbulence",
+      "summary": "Hourly, planar-fit-corrected velocity time series at 40, 60 and 80 m on the FINO1 platform. These are processed data, not the restricted raw recordings."
+    },
+    {
+      "record_id": "15520797",
+      "title": "One Year of ERA5 Wind Speed Data at 100m in Coastal China",
+      "type": "dataset",
+      "doi": "10.5281/zenodo.15520797",
+      "concept_doi": "10.5281/zenodo.15520796",
+      "date": "2025-05-26",
+      "version": null,
+      "license": "cc-by-4.0",
+      "access": "open",
+      "relations": [],
+      "url": "https://zenodo.org/records/15520797",
+      "display_title": "ERA5 wind speeds over coastal China",
+      "group": "Wind profiles and reanalysis",
+      "summary": "A year of hourly 100 m wind components over coastal China in NetCDF format, with supporting mapping data for research and teaching."
+    },
+    {
+      "record_id": "15210532",
+      "title": "ECheynet/NORA3: Gridded NORA3 data: automated and remote data extraction",
+      "type": "software",
+      "doi": "10.5281/zenodo.15210532",
+      "concept_doi": "10.5281/zenodo.5007640",
+      "date": "2025-04-14",
+      "version": "v1.6",
+      "license": "bsd-3-clause",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/NORA3/tree/v1.6",
+          "relation": "isSupplementTo",
+          "resource_type": "software",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/15210532",
+      "github": "ECheynet/NORA3"
+    },
+    {
+      "record_id": "14848924",
+      "title": "Data for Tall wind profile validation of ERA5, NORA3 and NEWA datasets using lidar observations",
+      "type": "dataset",
+      "doi": "10.5281/zenodo.14848924",
+      "concept_doi": "10.5281/zenodo.14848920",
+      "date": "2025-02-11",
+      "version": null,
+      "license": "bsd-3-clause",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/tallWindSpeedProfiles/tree/v1.1",
+          "relation": "isSupplementTo",
+          "resource_type": "software",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/14848924",
+      "github": "ECheynet/tallWindSpeedProfiles",
+      "display_title": "Tall wind-profile validation data",
+      "group": "Wind profiles and reanalysis",
+      "summary": "Lidar observations, hindcast data and MATLAB examples for comparing ERA5, NORA3 and NEWA wind profiles at heights up to 500 m."
+    },
+    {
+      "record_id": "11073986",
+      "title": "Reference site conditions for floating wind arrays: dataset of reference sites",
+      "type": "dataset",
+      "doi": "10.5281/zenodo.11073986",
+      "concept_doi": "10.5281/zenodo.8375735",
+      "date": "2024-04-26",
+      "version": "1.0.0",
+      "license": "cc-by-4.0",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "10.5281/zenodo.10048048",
+          "relation": "requires",
+          "resource_type": "dataset",
+          "scheme": "doi"
+        },
+        {
+          "identifier": "10.5281/zenodo.7057407",
+          "relation": "requires",
+          "resource_type": "dataset",
+          "scheme": "doi"
+        }
+      ],
+      "url": "https://zenodo.org/records/11073986",
+      "display_title": "IEA Wind Task 49 reference sites",
+      "group": "Metocean and floating wind",
+      "summary": "A collaborative collection of atmospheric and oceanographic data for 11 prospective floating-wind sites. Consult the record for site-specific access limitations."
+    },
+    {
+      "record_id": "10048048",
+      "title": "Metocean Conditions at Utsira Nord with NORA3 (1982-2022)",
+      "type": "dataset",
+      "doi": "10.5281/zenodo.10048048",
+      "concept_doi": "10.5281/zenodo.10048047",
+      "date": "2023-10-27",
+      "version": "1.0",
+      "license": "cc-by-4.0",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://ssrn.com/abstract=4408728",
+          "relation": "isDescribedBy",
+          "resource_type": "publication-preprint",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/10048048",
+      "display_title": "NORA3 metocean conditions at Utsira Nord",
+      "group": "Metocean and floating wind",
+      "summary": "Gridded hourly metocean conditions at Utsira Nord for 1982–2022, supporting long-term assessment of a deep-water offshore wind area."
+    },
+    {
+      "record_id": "10048159",
+      "title": "Spatially averaged metocean data at Utsira Nord (UN) and Sørlige Nordsjø II (SN2) with NORA3 (1982-2022)",
+      "type": "dataset",
+      "doi": "10.5281/zenodo.10048159",
+      "concept_doi": "10.5281/zenodo.10048158",
+      "date": "2023-10-27",
+      "version": "1.0",
+      "license": "cc-by-4.0",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://ssrn.com/abstract=4408728",
+          "relation": "isDescribedBy",
+          "resource_type": "publication-preprint",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/10048159",
+      "display_title": "Spatially averaged NORA3 metocean data",
+      "group": "Metocean and floating wind",
+      "summary": "Hourly wind and wave statistics at Utsira Nord and Sørlige Nordsjø II for 1982–2022, including wind profiles at eight heights."
+    },
+    {
+      "record_id": "10679142",
+      "title": "SAMURAI – Recent developments in drone-based sonic anemometer measurements",
+      "type": "presentation",
+      "doi": "10.5281/zenodo.10679142",
+      "concept_doi": "10.5281/zenodo.10679141",
+      "date": "2023-10-05",
+      "version": null,
+      "license": "cc-by-4.0",
+      "access": "open",
+      "relations": [],
+      "url": "https://zenodo.org/records/10679142"
+    },
+    {
+      "record_id": "10679014",
+      "title": "SAMURAI – Recent developments in drone-based sonic anemometer measurements",
+      "type": "presentation",
+      "doi": "10.5281/zenodo.10679014",
+      "concept_doi": "10.5281/zenodo.10679013",
+      "date": "2023-10-05",
+      "version": null,
+      "license": "cc-by-4.0",
+      "access": "open",
+      "relations": [],
+      "url": "https://zenodo.org/records/10679014"
+    },
+    {
+      "record_id": "8385197",
+      "title": "Dataset for NEWA and NORA3 Wind Atlas Analysis at FINO1",
+      "type": "software",
+      "doi": "10.5281/zenodo.8385197",
+      "concept_doi": "10.5281/zenodo.8385196",
+      "date": "2023-09-28",
+      "version": "v1.2",
+      "license": "bsd-license",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/FINO1_NORA3/tree/v1.2",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        },
+        {
+          "identifier": "10.1088/1742-6596/2362/1/012009",
+          "relation": "isDerivedFrom",
+          "resource_type": "publication-article",
+          "scheme": "doi"
+        }
+      ],
+      "url": "https://zenodo.org/records/8385197",
+      "github": "ECheynet/FINO1_NORA3"
+    },
+    {
+      "record_id": "8296894",
+      "title": "One-point Integral and Turbulent wind Characteristics at the FINO1 Platform (2007-2008)",
+      "type": "dataset",
+      "doi": "10.5281/zenodo.8296894",
+      "concept_doi": "10.5281/zenodo.8296893",
+      "date": "2023-08-29",
+      "version": null,
+      "license": "cc-by-4.0",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "10.1007/s10546-018-0382-2",
+          "relation": "isDerivedFrom",
+          "resource_type": "publication-article",
+          "scheme": "doi"
+        }
+      ],
+      "url": "https://zenodo.org/records/8296894",
+      "display_title": "FINO1 mean-flow and turbulence statistics",
+      "group": "FINO1 turbulence",
+      "summary": "Aggregated mean-flow and one-point turbulence characteristics derived from sonic-anemometer measurements at FINO1 during 2007–2008."
+    },
+    {
+      "record_id": "8188434",
+      "title": "ECheynet/condWindSim: Constrained wind simulation in a 2D plane",
+      "type": "software",
+      "doi": "10.5281/zenodo.8188434",
+      "concept_doi": "10.5281/zenodo.8188433",
+      "date": "2023-07-27",
+      "version": "v1.4",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/condWindSim/tree/v1.4",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/8188434",
+      "github": "ECheynet/condWindSim"
+    },
+    {
+      "record_id": "8099658",
+      "title": "ECheynet/SST_HD:  Automated importation of sea surface temperature data",
+      "type": "software",
+      "doi": "10.5281/zenodo.8099658",
+      "concept_doi": "10.5281/zenodo.4536835",
+      "date": "2023-06-30",
+      "version": "v2.0",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/SST_HD/tree/v2.0",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/8099658",
+      "github": "ECheynet/SST_HD"
+    },
+    {
+      "record_id": "8055279",
+      "title": "ECheynet/skewWindSim: Unfrozen skewed turbulence for wind loading on structures",
+      "type": "software",
+      "doi": "10.5281/zenodo.8055279",
+      "concept_doi": "10.5281/zenodo.4460293",
+      "date": "2023-06-19",
+      "version": "v1.5",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/skewWindSim/tree/v1.5",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/8055279",
+      "github": "ECheynet/skewWindSim"
+    },
+    {
+      "record_id": "7886749",
+      "title": "Vertical profiles of turbulence with ANN",
+      "type": "software",
+      "doi": "10.5281/zenodo.7886749",
+      "concept_doi": "10.5281/zenodo.7886748",
+      "date": "2023-05-02",
+      "version": "v1.3",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/ANN_profileAtm/tree/v1.3",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/7886749",
+      "github": "ECheynet/ANN_profileAtm"
+    },
+    {
+      "record_id": "7827552",
+      "title": "ECheynet/Ekman1D: Variable eddy viscosity Ekman layer in the ABL (1D)",
+      "type": "software",
+      "doi": "10.5281/zenodo.7827552",
+      "concept_doi": "10.5281/zenodo.3829393",
+      "date": "2023-04-14",
+      "version": "v1.4.1",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/Ekman1D/tree/v1.4.1",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/7827552",
+      "github": "ECheynet/Ekman1D"
+    },
+    {
+      "record_id": "7776909",
+      "title": "ECheynet/dynaResp_beam_TD: Time-domain dynamic response of a line-like structure to a random load",
+      "type": "software",
+      "doi": "10.5281/zenodo.7776909",
+      "concept_doi": "10.5281/zenodo.3965469",
+      "date": "2023-03-28",
+      "version": "v3.2",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/dynaResp_beam_TD/tree/v3.2",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/7776909",
+      "github": "ECheynet/dynaResp_beam_TD"
+    },
+    {
+      "record_id": "7776138",
+      "title": "ECheynet/dynaRespTD: dynaRespTD",
+      "type": "software",
+      "doi": "10.5281/zenodo.7776138",
+      "concept_doi": "10.5281/zenodo.3774083",
+      "date": "2023-03-27",
+      "version": "v2.4",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/dynaRespTD/tree/v2.4",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/7776138",
+      "github": "ECheynet/dynaRespTD"
+    },
+    {
+      "record_id": "7775932",
+      "title": "ECheynet/Excitation_SDOF: Harmonic excitation of a SDOF",
+      "type": "software",
+      "doi": "10.5281/zenodo.7775932",
+      "concept_doi": "10.5281/zenodo.6421632",
+      "date": "2023-03-27",
+      "version": "v2.3",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/Excitation_SDOF/tree/v2.3",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/7775932",
+      "github": "ECheynet/Excitation_SDOF"
+    },
+    {
+      "record_id": "7585419",
+      "title": "ECheynet/randomProcess: implementation of a random process generation in one point",
+      "type": "software",
+      "doi": "10.5281/zenodo.7585419",
+      "concept_doi": "10.5281/zenodo.3890405",
+      "date": "2023-01-30",
+      "version": "v1.1",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/randomProcess/tree/v1.1",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/7585419",
+      "github": "ECheynet/randomProcess"
+    },
+    {
+      "record_id": "7581866",
+      "title": "ECheynet/windSimFast: Wind field simulation (the fast version)",
+      "type": "software",
+      "doi": "10.5281/zenodo.7581866",
+      "concept_doi": "10.5281/zenodo.3774135",
+      "date": "2023-01-29",
+      "version": "v1.8.1",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/windSimFast/tree/v1.8.1",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/7581866",
+      "github": "ECheynet/windSimFast"
+    },
+    {
+      "record_id": "7576227",
+      "title": "ECheynet/AFDD: Automated Frequency Domain Decomposition (AFDD)",
+      "type": "software",
+      "doi": "10.5281/zenodo.7576227",
+      "concept_doi": "10.5281/zenodo.4277621",
+      "date": "2023-01-27",
+      "version": "v1.7",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/AFDD/tree/v1.7",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/7576227",
+      "github": "ECheynet/AFDD"
+    },
+    {
+      "record_id": "7576148",
+      "title": "ECheynet/modalID_singleSensor: Operational modal analysis with single sensor",
+      "type": "software",
+      "doi": "10.5281/zenodo.7576148",
+      "concept_doi": "10.5281/zenodo.4487059",
+      "date": "2023-01-27",
+      "version": "v1.1",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/modalID_singleSensor/tree/v1.1",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/7576148",
+      "github": "ECheynet/modalID_singleSensor"
+    },
+    {
+      "record_id": "7378112",
+      "title": "ECheynet/fitMann1994: Fitting the Uniform Shear Model to real data",
+      "type": "software",
+      "doi": "10.5281/zenodo.7378112",
+      "concept_doi": "10.5281/zenodo.3774087",
+      "date": "2022-11-29",
+      "version": "v1.4",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/fitMann1994/tree/v1.4",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/7378112",
+      "github": "ECheynet/fitMann1994"
+    },
+    {
+      "record_id": "7374188",
+      "title": "ECheynet/ChouguleModel2018: Stability-dependant uniform shear model",
+      "type": "software",
+      "doi": "10.5281/zenodo.7374188",
+      "concept_doi": "10.5281/zenodo.3774065",
+      "date": "2022-11-28",
+      "version": "v1.4",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/ChouguleModel2018/tree/v1.4",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/7374188",
+      "github": "ECheynet/ChouguleModel2018"
+    },
+    {
+      "record_id": "7057407",
+      "title": "Metocean Conditions at Sørlige Nordsjø II with NORA3 (1982-2022)",
+      "type": "dataset",
+      "doi": "10.5281/zenodo.7057407",
+      "concept_doi": "10.5281/zenodo.7057406",
+      "date": "2022-09-07",
+      "version": "1.0",
+      "license": null,
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://ssrn.com/abstract=4408728",
+          "relation": "isDescribedBy",
+          "resource_type": "publication-preprint",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/7057407",
+      "display_title": "NORA3 metocean conditions at Sørlige Nordsjø II",
+      "group": "Metocean and floating wind",
+      "summary": "Gridded hourly metocean conditions at Sørlige Nordsjø II for 1982–2022, for wind-energy assessment and offshore engineering."
+    },
+    {
+      "record_id": "6985183",
+      "title": "Ogive function for turbulent flux characterization",
+      "type": "software",
+      "doi": "10.5281/zenodo.6985183",
+      "concept_doi": "10.5281/zenodo.6985182",
+      "date": "2022-08-12",
+      "version": "v1.2",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/fitOgive/tree/v1.2",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/6985183",
+      "github": "ECheynet/fitOgive"
+    },
+    {
+      "record_id": "6792228",
+      "title": "ECheynet/readWindsurferNORA3: Met-ocean data extraction with NORA3",
+      "type": "software",
+      "doi": "10.5281/zenodo.6792228",
+      "concept_doi": "10.5281/zenodo.6792227",
+      "date": "2022-07-03",
+      "version": "v1.2",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/readWindsurferNORA3/tree/v1.2",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/6792228",
+      "github": "ECheynet/readWindsurferNORA3"
+    },
+    {
+      "record_id": "6586720",
+      "title": "Fitting the co-coherence of turbulence",
+      "type": "software",
+      "doi": "10.5281/zenodo.6586720",
+      "concept_doi": "10.5281/zenodo.6579690",
+      "date": "2022-05-27",
+      "version": "v1.01",
+      "license": "other-open",
+      "access": "open",
+      "relations": [],
+      "url": "https://zenodo.org/records/6586720",
+      "github": "ECheynet/cohFit"
+    },
+    {
+      "record_id": "6529030",
+      "title": "ECheynet/stationaryTests: Sationarity tests for random process",
+      "type": "software",
+      "doi": "10.5281/zenodo.6529030",
+      "concept_doi": "10.5281/zenodo.3891110",
+      "date": "2022-05-08",
+      "version": "v1.3",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/stationaryTests/tree/v1.3",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/6529030",
+      "github": "ECheynet/stationaryTests"
+    },
+    {
+      "record_id": "6421627",
+      "title": "A note on the calculation of the length scales of wind turbulence",
+      "type": "software",
+      "doi": "10.5281/zenodo.6421627",
+      "concept_doi": "10.5281/zenodo.6421626",
+      "date": "2022-04-07",
+      "version": "v1.02",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/TurbulenceLengthScales/tree/v1.02",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/6421627",
+      "github": "ECheynet/TurbulenceLengthScales"
+    },
+    {
+      "record_id": "6387787",
+      "title": "ECheynet/windSim_textBased: Wind field simulation (text-based input)",
+      "type": "software",
+      "doi": "10.5281/zenodo.6387787",
+      "concept_doi": "10.5281/zenodo.3817904",
+      "date": "2022-03-27",
+      "version": "v7.5.3",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/windSim_textBased/tree/v7.5.3",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/6387787",
+      "github": "ECheynet/windSim_textBased"
+    },
+    {
+      "record_id": "5881924",
+      "title": "ECheynet/dynaRespFD: Buffeting response of a suspension bridge (frequency domain)",
+      "type": "software",
+      "doi": "10.5281/zenodo.5881924",
+      "concept_doi": "10.5281/zenodo.3774075",
+      "date": "2022-01-20",
+      "version": "v5.3.1",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/dynaRespFD/tree/v5.3.1",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/5881924",
+      "github": "ECheynet/dynaRespFD"
+    },
+    {
+      "record_id": "5761756",
+      "title": "ECheynet/polarPcolor: Pcolor in polar coordinates Latest",
+      "type": "software",
+      "doi": "10.5281/zenodo.5761756",
+      "concept_doi": "10.5281/zenodo.3774155",
+      "date": "2021-12-06",
+      "version": "v3.11",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/polarPcolor/tree/v3.11",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/5761756",
+      "github": "ECheynet/polarPcolor"
+    },
+    {
+      "record_id": "6559368",
+      "title": "Dual lidar wind measurements along an upstream horizontal line perpendicular to a suspension bridge",
+      "type": "publication",
+      "doi": "10.1088/1757-899X/1201/1/012008",
+      "concept_doi": null,
+      "date": "2021-11-17",
+      "version": null,
+      "license": "cc-by-4.0",
+      "access": "open",
+      "relations": [],
+      "url": "https://zenodo.org/records/6559368"
+    },
+    {
+      "record_id": "4922271",
+      "title": "viridis_white: a modified viridis colormap",
+      "type": "software",
+      "doi": "10.5281/zenodo.4922271",
+      "concept_doi": "10.5281/zenodo.4915769",
+      "date": "2021-06-10",
+      "version": "v.1.2",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/viridis_white/tree/v.1.2",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/4922271",
+      "github": "ECheynet/viridis_white"
+    },
+    {
+      "record_id": "4692511",
+      "title": "Exploring the MetCoOp-Ensemble Prediction System data with Matlab",
+      "type": "software",
+      "doi": "10.5281/zenodo.4692511",
+      "concept_doi": "10.5281/zenodo.4636107",
+      "date": "2021-04-15",
+      "version": "v1.03",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/GMetCoOp/tree/v1.03",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/4692511",
+      "github": "ECheynet/GMetCoOp"
+    },
+    {
+      "record_id": "4672351",
+      "title": "Recommendation on use of wind lidars",
+      "type": "publication",
+      "doi": "10.5281/zenodo.4672351",
+      "concept_doi": "10.5281/zenodo.4672350",
+      "date": "2021-04-08",
+      "version": null,
+      "license": "cc-by-nc-4.0",
+      "access": "open",
+      "relations": [],
+      "url": "https://zenodo.org/records/4672351"
+    },
+    {
+      "record_id": "4541675",
+      "title": "Generalized SEIR Epidemic Model (fitting and computation)",
+      "type": "software",
+      "doi": "10.5281/zenodo.4541675",
+      "concept_doi": "10.5281/zenodo.3774067",
+      "date": "2021-02-15",
+      "version": "v4.8.8",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/SEIR/tree/v4.8.8",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/4541675",
+      "github": "ECheynet/SEIR"
+    },
+    {
+      "record_id": "4501822",
+      "title": "Operational modal analysis with automated SSI-COV algorithm",
+      "type": "software",
+      "doi": "10.5281/zenodo.4501822",
+      "concept_doi": "10.5281/zenodo.3774060",
+      "date": "2021-02-04",
+      "version": "2.5",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/SSICOV/tree/2.5",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/4501822",
+      "github": "ECheynet/SSICOV"
+    },
+    {
+      "record_id": "4168353",
+      "title": "Evolutionary Power Spectral Density (EPSD)",
+      "type": "software",
+      "doi": "10.5281/zenodo.4168353",
+      "concept_doi": "10.5281/zenodo.4110450",
+      "date": "2020-10-31",
+      "version": "v1.3",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/EPSD/tree/v1.3",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/4168353",
+      "github": "ECheynet/EPSD"
+    },
+    {
+      "record_id": "4246191",
+      "title": "The influence of terrain on the mean wind flow characteristics in a fjord",
+      "type": "publication",
+      "doi": "10.1016/j.jweia.2020.104331",
+      "concept_doi": null,
+      "date": "2020-09-03",
+      "version": null,
+      "license": "cc-by-4.0",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "10.1016/j.jweia.2020.104331",
+          "relation": "isIdenticalTo",
+          "resource_type": "publication-article",
+          "scheme": "doi"
+        }
+      ],
+      "url": "https://zenodo.org/records/4246191"
+    },
+    {
+      "record_id": "3971758",
+      "title": "Automated vehicle identification using bridge vibrations",
+      "type": "software",
+      "doi": "10.5281/zenodo.3971758",
+      "concept_doi": "10.5281/zenodo.3971737",
+      "date": "2020-08-04",
+      "version": "v1.01",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/trafficIdentification/tree/v1.01",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        },
+        {
+          "identifier": "10.1002/stc.2574",
+          "relation": "isDerivedFrom",
+          "resource_type": "publication-article",
+          "scheme": "doi"
+        }
+      ],
+      "url": "https://zenodo.org/records/3971758",
+      "github": "ECheynet/trafficIdentification"
+    },
+    {
+      "record_id": "3922238",
+      "title": "Flow distortion recorded by sonic anemometers on a long-span bridge: Towards a better modelling of the dynamic wind load in full-scale",
+      "type": "publication",
+      "doi": "10.1016/j.jsv.2019.03.013",
+      "concept_doi": null,
+      "date": "2020-06-29",
+      "version": null,
+      "license": "cc-by-4.0",
+      "access": "open",
+      "relations": [],
+      "url": "https://zenodo.org/records/3922238"
+    },
+    {
+      "record_id": "3922226",
+      "title": "Improved long‐span bridge modeling using data‐driven identification of vehicle‐induced vibrations",
+      "type": "publication",
+      "doi": "10.1002/stc.2574",
+      "concept_doi": null,
+      "date": "2020-06-29",
+      "version": null,
+      "license": "cc-by-4.0",
+      "access": "open",
+      "relations": [],
+      "url": "https://zenodo.org/records/3922226"
+    },
+    {
+      "record_id": "3922243",
+      "title": "scatterWindRose: Wind rose as a scatter plot",
+      "type": "software",
+      "doi": "10.5281/zenodo.3922243",
+      "concept_doi": "10.5281/zenodo.3922242",
+      "date": "2020-06-29",
+      "version": "v4.1.3",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/scatterWindRose/tree/v4.1.3",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/3922243",
+      "github": "ECheynet/scatterWindRose"
+    },
+    {
+      "record_id": "3922252",
+      "title": "Tilt-correction algorithms for 3D sonic anemometers",
+      "type": "software",
+      "doi": "10.5281/zenodo.3922252",
+      "concept_doi": "10.5281/zenodo.3922251",
+      "date": "2020-06-29",
+      "version": "v3.2.2",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/tiltCorrection/tree/v3.2.2",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/3922252",
+      "github": "ECheynet/tiltCorrection"
+    },
+    {
+      "record_id": "3827447",
+      "title": "Converting acceleration to displacements records",
+      "type": "software",
+      "doi": "10.5281/zenodo.3827447",
+      "concept_doi": "10.5281/zenodo.3827446",
+      "date": "2020-05-14",
+      "version": "v2.1",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/ASD/tree/v2.1",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/3827447",
+      "github": "ECheynet/ASD"
+    },
+    {
+      "record_id": "3827107",
+      "title": "Damping ratio estimation from ambient vibrations (SDOF)",
+      "type": "software",
+      "doi": "10.5281/zenodo.3827107",
+      "concept_doi": "10.5281/zenodo.3827106",
+      "date": "2020-05-14",
+      "version": "v1.3",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/OMA_1SDOF/tree/v1.3",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/3827107",
+      "github": "ECheynet/OMA_1SDOF"
+    },
+    {
+      "record_id": "3826693",
+      "title": "Linear vertical vibrations of a suspension bridge",
+      "type": "software",
+      "doi": "10.5281/zenodo.3826693",
+      "concept_doi": "10.5281/zenodo.3826692",
+      "date": "2020-05-14",
+      "version": "1.5.1",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/eigenBridge2/tree/1.5.1",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/3826693",
+      "github": "ECheynet/eigenBridge2"
+    },
+    {
+      "record_id": "3818011",
+      "title": "Averaging noisy data into bins",
+      "type": "software",
+      "doi": "10.5281/zenodo.3818011",
+      "concept_doi": "10.5281/zenodo.3818010",
+      "date": "2020-05-08",
+      "version": "v1.5",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/binAveraging/tree/v1.5",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/3818011",
+      "github": "ECheynet/binAveraging"
+    },
+    {
+      "record_id": "3817982",
+      "title": "Calculation of the modal parameters of a suspension bridge",
+      "type": "software",
+      "doi": "10.5281/zenodo.3817982",
+      "concept_doi": "10.5281/zenodo.3817981",
+      "date": "2020-05-08",
+      "version": "v3.3",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/eigenBridge/tree/v3.3",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/3817982",
+      "github": "ECheynet/eigenBridge"
+    },
+    {
+      "record_id": "3817909",
+      "title": "Eigen-value calculation of continuous beams",
+      "type": "software",
+      "doi": "10.5281/zenodo.3817909",
+      "concept_doi": "10.5281/zenodo.3817908",
+      "date": "2020-05-08",
+      "version": "v1.6",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/eigenBeam/tree/v1.6",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/3817909",
+      "github": "ECheynet/eigenBeam"
+    },
+    {
+      "record_id": "3817999",
+      "title": "Mode shapes extraction by time domain decomposition (TDD)",
+      "type": "software",
+      "doi": "10.5281/zenodo.3817999",
+      "concept_doi": "10.5281/zenodo.3817998",
+      "date": "2020-05-08",
+      "version": "v2.5",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/TDD/tree/v2.5",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/3817999",
+      "github": "ECheynet/TDD"
+    },
+    {
+      "record_id": "3782792",
+      "title": "Friction velocity estimation from the Reynold stress tensor",
+      "type": "software",
+      "doi": "10.5281/zenodo.3782792",
+      "concept_doi": "10.5281/zenodo.3782791",
+      "date": "2020-05-02",
+      "version": "v1.4",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/Klipp2018/tree/v1.4",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/3782792",
+      "github": "ECheynet/Klipp2018"
+    },
+    {
+      "record_id": "3776105",
+      "title": "Matlab implementation of the uniform shear model",
+      "type": "software",
+      "doi": "10.5281/zenodo.3776105",
+      "concept_doi": "10.5281/zenodo.3774093",
+      "date": "2020-04-29",
+      "version": "v1.7",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/MannModel1994/tree/v1.7",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/3776105",
+      "github": "ECheynet/MannModel1994"
+    },
+    {
+      "record_id": "3774070",
+      "title": "Earthquake simulation and fitting",
+      "type": "software",
+      "doi": "10.5281/zenodo.3774070",
+      "concept_doi": "10.5281/zenodo.3774069",
+      "date": "2020-04-28",
+      "version": "v2.1",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/earthquakeSim/tree/v2.1",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/3774070",
+      "github": "ECheynet/earthquakeSim"
+    },
+    {
+      "record_id": "3774158",
+      "title": "Mathematical modelling of an outbreak of zombie infection",
+      "type": "software",
+      "doi": "10.5281/zenodo.3774158",
+      "concept_doi": "10.5281/zenodo.3774157",
+      "date": "2020-04-28",
+      "version": "v2.3",
+      "license": "other-open",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://github.com/ECheynet/zombieInfectionModelling/tree/v2.3",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/3774158",
+      "github": "ECheynet/zombieInfectionModelling"
+    },
+    {
+      "record_id": "3923911",
+      "title": "Influence of the Measurement Height on the Vertical Coherence of Natural Wind",
+      "type": "publication",
+      "doi": "10.1007/978-3-030-12815-9_17",
+      "concept_doi": null,
+      "date": "2019-03-13",
+      "version": null,
+      "license": "cc-by-4.0",
+      "access": "open",
+      "relations": [],
+      "url": "https://zenodo.org/records/3923911"
+    },
+    {
+      "record_id": "3960099",
+      "title": "Velocity Spectra and Coherence Estimates in the Marine Atmospheric Boundary Layer",
+      "type": "publication",
+      "doi": "10.1007/s10546-018-0382-2",
+      "concept_doi": null,
+      "date": "2018-08-02",
+      "version": null,
+      "license": "cc-by-4.0",
+      "access": "open",
+      "relations": [
+        {
+          "identifier": "https://link.springer.com/article/10.1007%2Fs10546-018-0382-2",
+          "relation": "isContinuedBy",
+          "resource_type": "publication-article",
+          "scheme": "url"
+        }
+      ],
+      "url": "https://zenodo.org/records/3960099"
+    }
+  ]
+}

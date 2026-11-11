@@ -13,6 +13,8 @@ Use the search field to filter publications and other research outputs by title,
 
 Altmetric attention scores and Dimensions citation badges are shown where the providers have data for a DOI. Google Scholar counts use a separate source and are not interchangeable with Dimensions counts.
 
+Open publication copies, citable software releases and research datasets are also indexed in my [Zenodo archive catalogue]({% link _pages/zenodo.md %}). Archived copies of papers are not counted as additional publications.
+
 Thumbnails show representative venue covers where available, not necessarily the issue in which a paper appeared.
 
 {% include bib_search.liquid %}

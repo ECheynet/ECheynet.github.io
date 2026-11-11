@@ -12,6 +12,8 @@ _styles: |
 
 [← Software & Data]({% link _pages/software.md %})
 
+[Zenodo archives and citation DOIs]({% link _pages/zenodo.md %}) preserve citable snapshots of released software, separately from the current GitHub development versions.
+
 ## GitHub profile
 
 <div class="repositories">

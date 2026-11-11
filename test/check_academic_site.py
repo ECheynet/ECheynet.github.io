@@ -3,6 +3,7 @@
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urljoin, urlsplit
+import json
 import re
 import sys
 import xml.etree.ElementTree as ET
@@ -52,13 +53,47 @@ def main():
     require("index.html", "Etienne", "Cheynet", "ninja-keys", "light-toggle")
     require("cv/index.html", "al-folio-cv.css", "Contact Information", "Experience",
             "Education", "CV_Cheynet_2026.pdf")
-    require("software/index.html", "/repositories/", "software-grid")
+    require("software/index.html", "/repositories/", "/zenodo/", "software-grid", "Cite archived release")
     require("repositories/index.html", "ECheynet", "/api/pin/", "Repository links")
+    require("zenodo/index.html", "Software archives", "Publication copies", "Presentations")
     require("projects/index.html", "projects")
     require("publications/index.html", "publication-covers.css", "altmetric-embed",
             "__dimensions_badge_embed__", "scholar.google.com")
     require("supervision/index.html", "completed-msc-supervision", "nva.sikt.no/registration/")
     require("news/index.html", "Mathilde", "Zuhir", "European Academy of Wind Energy")
+
+    # The catalogue is a reviewed local snapshot: builds never depend on Zenodo HTTP calls.
+    catalogue = json.loads(Path("_data/zenodo.json").read_text(encoding="utf-8"))
+    record_ids = set()
+    concepts = set()
+    bibliography = "\n".join(p.read_text(encoding="utf-8") for p in Path("_bibliography").glob("*.bib")).lower()
+    if not catalogue.get("records"):
+        failures.append("Zenodo catalogue is empty")
+    for record in catalogue["records"]:
+        record_id = record["record_id"]
+        if record_id in record_ids:
+            failures.append(f"Duplicate Zenodo record: {record_id}")
+        record_ids.add(record_id)
+        if record["url"] != f"https://zenodo.org/records/{record_id}":
+            failures.append(f"Unexpected Zenodo record URL: {record_id}")
+        if record["type"] not in ("dataset", "software", "publication", "presentation"):
+            failures.append(f"Unknown Zenodo resource type: {record_id}")
+        require("zenodo/index.html", f'href="{record["url"]}"', f'https://doi.org/{record["doi"]}')
+        if record["type"] in ("dataset", "software"):
+            if record.get("concept_doi") in concepts:
+                failures.append(f"Multiple versions of the same Zenodo resource: {record_id}")
+            concepts.add(record.get("concept_doi"))
+            if record["doi"] != f"10.5281/zenodo.{record_id}":
+                failures.append(f"Version DOI does not match Zenodo record: {record_id}")
+        if record["type"] == "dataset":
+            require("software/index.html", f'id="zenodo-{record_id}"', f'https://doi.org/{record["doi"]}')
+            if record.get("group") not in catalogue["dataset_groups"] or not record.get("summary"):
+                failures.append(f"Dataset is missing a group or description: {record_id}")
+        if record["type"] == "publication" and record["doi"].lower() not in bibliography:
+            failures.append(f"Zenodo publication is not represented in the bibliography: {record_id}")
+        if record["type"] == "publication" and not record["doi"].startswith("10.5281/zenodo."):
+            require("publications/index.html", f'href="{record["url"]}"')
+
     for source in Path("_projects").glob("*.md"):
         require(f"projects/{source.stem}/index.html", "post-title")
         image = re.search(r"^img:\s*(\S+)\s*$", source.read_text(encoding="utf-8"), re.MULTILINE)
