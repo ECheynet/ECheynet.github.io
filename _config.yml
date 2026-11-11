@@ -69,7 +69,7 @@ al_folio:
     allow_remote_loader: false
   features:
     cv:
-      enabled: false
+      enabled: true
     distill:
       enabled: false
   compat:
@@ -401,7 +401,7 @@ scholar:
 enable_publication_badges:
   altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
   dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
-  google_scholar: false # Enable once real per-publication Scholar IDs are maintained.
+  google_scholar: true # Badges render only for records with verified per-publication IDs.
   inspirehep: false # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
@@ -710,9 +710,7 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
+jekyll_get_json: [] # The CV uses the site-owned _data/resume.json, not the template demo.
 
 jsonresume:
   - basics

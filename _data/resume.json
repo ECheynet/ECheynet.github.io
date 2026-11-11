@@ -1,0 +1,178 @@
+{
+  "basics": {
+    "name": "Etienne Cheynet",
+    "label": "Associate Professor",
+    "email": "etienne.cheynet@uib.no",
+    "url": "https://echeynet.github.io/",
+    "location": {
+      "address": "Allégaten 55",
+      "city": "Bergen",
+      "postalCode": "5007",
+      "countryCode": "NO"
+    },
+    "summary": "Associate Professor at the Geophysical Institute, University of Bergen. My research connects atmospheric turbulence, experimental meteorology, offshore wind energy and structural dynamics. This page summarises my academic record; the [complete CV (PDF)](/assets/pdf/CV_Cheynet_2026.pdf) contains the full publication list, supervision, service and outreach."
+  },
+  "work": [
+    {
+      "name": "University of Bergen",
+      "position": "Associate Professor",
+      "startDate": "2022",
+      "location": "Bergen, Norway",
+      "highlights": [
+        "Research in atmospheric turbulence, remote sensing, wind engineering and offshore wind energy.",
+        "PhD and MSc supervision across engineering, geoscience and sustainability.",
+        "Course redesign for ENERGI230, ENERGI321 and ENERGI322.",
+        "Completed the 200-hour university-pedagogy pathway (UPED 600–602)."
+      ]
+    },
+    {
+      "name": "Dalian University of Technology",
+      "position": "Visiting Professor",
+      "startDate": "2025",
+      "endDate": "2028",
+      "location": "Dalian, China",
+      "summary": "Joint research, guest teaching, curriculum development and student exchange."
+    },
+    {
+      "name": "University of Bergen",
+      "position": "Postdoctoral Researcher",
+      "startDate": "2019",
+      "endDate": "2022",
+      "location": "Bergen, Norway",
+      "highlights": [
+        "Synchronous long-range lidar observations in the COTUR campaign.",
+        "Unfrozen turbulence simulation and analyses of marine and fjord turbulence."
+      ]
+    },
+    {
+      "name": "University of Stavanger",
+      "position": "Postdoctoral Researcher",
+      "startDate": "2016",
+      "endDate": "2019",
+      "location": "Stavanger, Norway",
+      "highlights": [
+        "Marine boundary-layer turbulence, Doppler lidar measurements and wind flow in complex terrain.",
+        "Full-scale structural dynamics and wind-induced response of bridges."
+      ]
+    },
+    {
+      "name": "University of Stavanger",
+      "position": "PhD Candidate",
+      "startDate": "2013",
+      "endDate": "2016",
+      "location": "Stavanger, Norway",
+      "summary": "Full-scale monitoring and wind-induced vibrations of the Lysefjord suspension bridge."
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Stavanger",
+      "studyType": "PhD",
+      "area": "Wind-induced vibrations of a suspension bridge: A case study in full-scale",
+      "startDate": "2013",
+      "endDate": "2016",
+      "location": "Stavanger, Norway",
+      "url": "https://hdl.handle.net/11250/2425472"
+    },
+    {
+      "institution": "ISAE-ENSMA",
+      "studyType": "MSc",
+      "area": "Engineering",
+      "startDate": "2009",
+      "endDate": "2012",
+      "location": "France"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Wind Energy Science",
+      "position": "Associate Editor",
+      "startDate": "2024",
+      "url": "https://www.wind-energy-science.net/"
+    },
+    {
+      "organization": "University of Bergen",
+      "position": "Wind-engineering thematic group lead",
+      "startDate": "2025",
+      "summary": "Coordination across wind-resource assessment, turbulence modelling, structural dynamics and atmospheric sensing."
+    },
+    {
+      "organization": "University of Bergen",
+      "position": "Academic leadership and service",
+      "highlights": [
+        "Steering Committee member for the Master's Programme in Sustainability.",
+        "Scientific committee member and metocean session chair for EERA DeepWind.",
+        "External and internal examiner for PhD and MSc candidates; member or chair of academic appointment committees.",
+        "Organiser of research workshops and academia–industry events in offshore wind energy."
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Tom A. Wyatt Best Paper Award",
+      "date": "2020",
+      "awarder": "Norwegian Public Roads Administration",
+      "summary": "Recognition for wind-engineering research."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Atmospheric turbulence",
+      "keywords": ["Spatial coherence", "Spectra", "Stochastic simulation", "Atmospheric stability"]
+    },
+    {
+      "name": "Atmospheric measurements",
+      "keywords": ["Doppler wind lidar", "Sonic anemometry", "Drone-based sensing"]
+    },
+    {
+      "name": "Wind engineering",
+      "keywords": ["Offshore wind energy", "Bridge aerodynamics", "Structural dynamics", "Operational modal analysis"]
+    },
+    {
+      "name": "Open research",
+      "keywords": ["MATLAB", "Python", "Reusable software", "Open datasets"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "C1"
+    },
+    {
+      "language": "Norwegian",
+      "fluency": "B2–C1"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "University-pedagogy qualification: UPED 600–602 (200 hours)",
+      "issuer": "University of Bergen",
+      "date": "2025"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Complete research output",
+      "publisher": "Journal articles, proceedings, reports and other outputs",
+      "url": "https://echeynet.github.io/publications/",
+      "summary": "Browse the searchable bibliography, open PDFs and dataset links."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Research projects",
+      "url": "https://echeynet.github.io/projects/",
+      "summary": "Machine Wind, NEXTgenT, LOWT, BEL-Float, UiB–DUT collaboration, COTUR and related research initiatives."
+    }
+  ],
+  "interests": [
+    {
+      "name": "Open and reproducible research",
+      "keywords": ["Research software and datasets", "Teaching resources", "Supportive research supervision"]
+    }
+  ]
+}

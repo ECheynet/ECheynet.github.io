@@ -5,6 +5,10 @@ title: Software & Data
 description: Open tools and datasets for wind engineering, atmospheric turbulence, and structural dynamics.
 nav: true
 nav_order: 5
+_styles: |
+  .software-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 1rem; margin-block: 1.5rem; }
+  .software-grid .card { padding: 1.25rem; }
+  .software-grid h3 { margin-top: 0; font-size: 1.15rem; }
 ---
 
 I release research software and datasets through GitHub, Zenodo and MATLAB File Exchange. The resources below support wind engineering, atmospheric measurements and structural dynamics.
@@ -15,11 +19,17 @@ I release research software and datasets through GitHub, Zenodo and MATLAB File 
 
 ## Selected repositories
 
-<ul>
+<p><a href="{% link _pages/repositories.md %}">Explore GitHub profile and repository statistics →</a></p>
+
+<div class="software-grid">
   {% for repo in site.data.repositories.selected %}
-    <li><a href="https://github.com/{{ repo.path }}">{{ repo.path | split: '/' | last }}</a> — {{ repo.description | escape }}</li>
+    <section class="card">
+      <h3><a href="https://github.com/{{ repo.path }}">{{ repo.path | split: '/' | last }}</a></h3>
+      <p>{{ repo.description | escape }}</p>
+      <a href="https://github.com/{{ repo.path }}">View repository →</a>
+    </section>
   {% endfor %}
-</ul>
+</div>
 
 ## Open datasets
 

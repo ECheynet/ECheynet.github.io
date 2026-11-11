@@ -1,5 +1,6 @@
 ---
 layout: page
+img: assets/img/project-placeholder.svg
 title: LOWT
 description: Structural design of large offshore wind turbines under non-neutral atmospheric conditions.
 importance: 3

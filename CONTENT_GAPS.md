@@ -25,6 +25,6 @@ This list records useful additions that still require source material, verificat
 
 ## Template features kept optional
 
-- The CV remains an accessible HTML summary with the authoritative LaTeX-generated PDF. Do not enable the sample RenderCV or JSONResume layouts without replacing their demo data.
+- The CV uses al-folio's native JSONResume layout and site-owned data, alongside the authoritative LaTeX-generated PDF. Keep both up to date.
 - A research news archive and feed cover announcements. A separate blog, people directory, bookshelf, comments, analytics, newsletter and interactive media are not needed until there is real content or a configured service.
-- Per-paper Scholar badges require verified publication IDs; the public Scholar profile is already linked. The upstream comments integration expects demo posts and is not a production-site check.
+- Per-paper Scholar badges require verified publication IDs and cached citation counts; the public Scholar profile and DOI-based Altmetric/Dimensions badges are configured. Add Scholar IDs only from a verified export when automated access is blocked.

@@ -1,5 +1,6 @@
 ---
 layout: page
+img: assets/img/project-placeholder.svg
 title: UiB–DUT collaboration
 description: Joint research, teaching, and student exchange in offshore wind energy.
 importance: 5

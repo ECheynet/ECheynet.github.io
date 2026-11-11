@@ -1,5 +1,6 @@
 ---
 layout: page
+img: assets/img/project-placeholder.svg
 title: Floating wind power production
 description: Long-term power-production estimation for floating offshore wind parks.
 importance: 2

@@ -13,6 +13,7 @@ on:
       - "_data/**"
       - "_pages/**"
       - "_posts/**"
+      - "_news/**"
       - "_projects/**"
       - "assets/**"
       - "test/**"
@@ -31,6 +32,7 @@ on:
       - "_data/**"
       - "_pages/**"
       - "_posts/**"
+      - "_news/**"
       - "_projects/**"
       - "assets/**"
       - "test/**"
@@ -38,8 +40,11 @@ on:
       - "package-lock.json"
       - ".github/workflows/unit-tests.yml"
 
+permissions:
+  contents: read
+
 jobs:
-  comments-integration-tests:
+  site-integration-tests:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
@@ -74,23 +79,16 @@ jobs:
           sudo apt-get update && sudo apt-get install -y imagemagick
           pip3 install --upgrade nbconvert
 
-      - name: Run comments integration test 🧪
-        run: bash test/integration_comments.sh
+      - name: Check formatting
+        run: npm run lint:prettier
 
-      - name: Run plugin toggle integration test 🔌
-        run: bash test/integration_plugin_toggles.sh
+      - name: Build the academic site
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build
 
-      - name: Run distill integration test 📄
-        run: bash test/integration_distill.sh
+      - name: Validate rendered pages, internal links and features
+        run: python test/check_academic_site.py _site
 
-      - name: Run bootstrap compatibility integration test 🧩
-        run: bash test/integration_bootstrap_compat.sh
-
-      - name: Run upgrade CLI integration test ⬆️
-        run: bash test/integration_upgrade_cli.sh
-
-      - name: Run CSS minify integration test 🎨
-        run: bash test/integration_css_minify.sh
-
-      - name: Run new plugin integration checks 🧩
-        run: bash test/integration_new_plugins.sh
+      - name: Check al-folio upgrade compatibility
+        run: bundle exec al-folio upgrade audit

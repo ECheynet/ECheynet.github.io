@@ -1,3 +1,6 @@
+github_users: [ECheynet]
+repo_description_lines_max: 3
+
 selected:
   - path: ECheynet/SSICOV
     description: Covariance-driven stochastic subspace identification for operational modal analysis.

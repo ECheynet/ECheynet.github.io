@@ -7,7 +7,11 @@ nav: true
 nav_order: 2
 display_categories: [ongoing, completed]
 horizontal: true
+_styles: |
+  .projects .card-img { width: 100%; height: 160px; object-fit: cover; }
 ---
+
+Grey panels reserve space for future project illustrations.
 
 <div class="projects">
 {% for category in page.display_categories %}

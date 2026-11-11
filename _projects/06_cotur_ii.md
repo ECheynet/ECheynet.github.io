@@ -1,5 +1,6 @@
 ---
 layout: page
+img: assets/img/project-placeholder.svg
 title: COTUR II
 description: Analysis and interpretation of synchronised lidar measurements of offshore turbulence.
 importance: 1
