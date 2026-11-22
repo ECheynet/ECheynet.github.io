@@ -14,7 +14,7 @@ toc:
 
 - **[ENERGI230 — Environment and Energy](https://www4.uib.no/en/studies/courses/energi230)** (UiB, 2023–present; 10 ECTS)
 - **[ENERGI321 — Offshore Wind Energy, Part 1](https://www4.uib.no/en/studies/courses/energi321)** (UiB, 2023–present; 5 ECTS)
-- **[ENERGI322 — Offshore Wind Energy, Part 2](https://www4.uib.no/en/studies/courses/energi322)** (UiB, 2023–2025; 5 ECTS)
+- **[ENERGI322 — Offshore Wind Energy, Part 2](https://www4.uib.no/en/studies/courses/energi322)** (UiB, 2022–2024; 5 ECTS)
 - **[ENERGI101 — Introduction to Energy Resources and Consumption](https://www4.uib.no/en/studies/courses/energi101)** (UiB, 2020; 10 ECTS)
 
 ## Lecturing
@@ -22,7 +22,7 @@ toc:
 - **[SDG309 — Interdisciplinary Perspectives on Sustainability](https://www4.uib.no/en/studies/courses/sdg309)** (UiB, 2026–present; 20 ECTS)
 - **[SDG310 — Introduction: Interdisciplinary Approaches to Sustainable Development](https://www4.uib.no/en/studies/courses/sdg310)** (2022–2025)
 - **[SDG207 — Energy Transition](https://www4.uib.no/en/studies/courses/sdg207)** (guest lecturer, 2022–2026)
-- **ENERGI360 — Wind Turbine Technology** (2022–2023)
+- **ENERGI210 — Wind Turbine Aerodynamics** (UiB, approximately 2022–2023). The course was subsequently renamed **ENERGI360 — Wind Turbine Technology**.
 - **[ENERGI102 — Life Cycle Assessment](https://www4.uib.no/en/studies/courses/energi102)** (guest lecturer, 2024)
 - **OFF905 — PhD Project Course in Structural Engineering** (UiS, 2019)
 
