@@ -15,21 +15,21 @@ My supervision spans engineering, geoscience, energy systems, and interdisciplin
 
 ## Current PhD candidates
 
-| Candidate        |       Period | Role            | Institution                | Topic                                                                           |
-| ---------------- | -----------: | --------------- | -------------------------- | ------------------------------------------------------------------------------- |
-| Beke Pierick     | 2025–present | Co-supervisor   | UiB                        | Fast aerodynamic models for offshore wind farms using machine learning          |
-| Frederike Möller | 2025–present | Co-supervisor   | UiB                        | Turbulence for large wind turbines using lidar and drone-based sonic anemometry |
-| Yuanchen Wan     | 2024–present | Main supervisor | UiB                        | Wind loading on parabolic solar collector arrays                                |
-| Rebeca Marini    | 2023–present | Co-supervisor   | Vrije Universiteit Brussel | Full-scale wind turbine performance analysis                                    |
+| Candidate                |       Period | Role            | Institution                | Topic                                                                                                                                                                                                                                                         |
+| ------------------------ | -----------: | --------------- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Beke Pierick             | 2025–present | Co-supervisor   | UiB                        | Fast aerodynamic models for offshore wind farms using machine learning                                                                                                                                                                                        |
+| Frederike Möller         | 2025–present | Co-supervisor   | UiB                        | Turbulence for large wind turbines using lidar and drone-based sonic anemometry                                                                                                                                                                               |
+| Yuanchen Wan             | 2024–present | Main supervisor | UiB                        | Wind loading on parabolic solar collector arrays                                                                                                                                                                                                              |
+| Rebeca Marini            | 2023–present | Co-supervisor   | Vrije Universiteit Brussel | Full-scale wind turbine performance analysis                                                                                                                                                                                                                  |
+| Shokoufeh Malekmohammadi | 2021–present | Co-supervisor   | UiB                        | [Potential of ship-based lidar observations for offshore wind energy and atmospheric boundary layer research](https://www4.uib.no/forskning/disputaser/kan-malinger-fra-et-skip-avslore-vindens-hemmeligheter). Public defence scheduled for 2 December 2026. |
 
 ## Completed and recent PhD supervision
 
-| Candidate                |    Period | Role          | Institution | Topic                                                                                                             |
-| ------------------------ | --------: | ------------- | ----------- | ----------------------------------------------------------------------------------------------------------------- |
-| Shokoufeh Malekmohammadi | 2021–2026 | Co-supervisor | UiB         | Ship-based wind lidar measurements for offshore wind-energy research                                              |
-| Mauro Ghirardelli        | 2021–2024 | Co-supervisor | UiB         | [Development and testing of a drone-based sonic anemometer system](https://hdl.handle.net/11250/3170691)          |
-| Rieska Putri             | 2018–2023 | Co-supervisor | UiS         | [Atmospheric stratification and offshore wind-turbine response](https://hdl.handle.net/11250/3093439)             |
-| Nicolò Daniotti          | 2018–2022 | Co-supervisor | UiS         | [Full-scale aerodynamic properties of a suspension bridge](https://ebooks.uis.no/index.php/USPS/catalog/book/165) |
+| Candidate         |    Period | Role          | Institution | Topic                                                                                                             |
+| ----------------- | --------: | ------------- | ----------- | ----------------------------------------------------------------------------------------------------------------- |
+| Mauro Ghirardelli | 2021–2024 | Co-supervisor | UiB         | [Development and testing of a drone-based sonic anemometer system](https://hdl.handle.net/11250/3170691)          |
+| Rieska Putri      | 2018–2023 | Co-supervisor | UiS         | [Atmospheric stratification and offshore wind-turbine response](https://hdl.handle.net/11250/3093439)             |
+| Nicolò Daniotti   | 2018–2022 | Co-supervisor | UiS         | [Full-scale aerodynamic properties of a suspension bridge](https://ebooks.uis.no/index.php/USPS/catalog/book/165) |
 
 ## Current MSc students
 
@@ -40,6 +40,10 @@ My supervision spans engineering, geoscience, energy systems, and interdisciplin
 | Jente Willems         | 2026–present | Main supervisor | UiB         | Interdisciplinary perspectives on atmospheric aerosol injection for geoengineering |
 | Silje Welander        | 2026–present | Co-supervisor   | UiB         | Wind-turbine wake analysis using simulations and scanning wind lidar               |
 | Julie Kaldestad-Aasen | 2026–present | Co-supervisor   | UiB         | Waves in the marine atmospheric boundary layer from lidar observations             |
+
+## Planned MSc supervision
+
+I will be the main supervisor for Ingeborg Torild Knappen Kahrs at UiB. Her MSc project is expected to start and finish in 2027.
 
 ## Completed MSc supervision
 
