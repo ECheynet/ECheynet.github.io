@@ -29,7 +29,7 @@ test("publication popover works without bootstrap compat runtime", async ({ page
   await expect(page.locator(".af-popover")).toBeVisible();
 });
 
-test("mobile navbar can expand/collapse", async ({ page }, testInfo) => {
+test("mobile navbar can expand/collapse", { tag: "@academic" }, async ({ page }, testInfo) => {
   test.skip(testInfo.project.name !== "mobile", "mobile-only navigation behavior");
 
   await preparePage(page, "light");
@@ -46,7 +46,7 @@ test("mobile navbar can expand/collapse", async ({ page }, testInfo) => {
   await expect(nav).not.toHaveClass(/show/);
 });
 
-test("repositories page renders external stat cards with deterministic fixtures", async ({ page }) => {
+test("repositories page renders external stat cards with deterministic fixtures", { tag: "@academic" }, async ({ page }) => {
   await preparePage(page, "light");
   await page.goto("/al-folio/repositories/", { waitUntil: "networkidle" });
   await stabilizeVisuals(page);
@@ -98,7 +98,7 @@ test("blog pagination uses core Tailwind-native styling contract", async ({ page
   expect(styles.paddingLeft).not.toBe("0px");
 });
 
-test("navbar menu stays right-aligned on desktop pages", async ({ page }, testInfo) => {
+test("navbar menu stays right-aligned on desktop pages", { tag: "@academic" }, async ({ page }, testInfo) => {
   test.skip(testInfo.project.name === "mobile", "desktop-only alignment contract");
 
   await preparePage(page, "light");
@@ -123,7 +123,7 @@ test("navbar menu stays right-aligned on desktop pages", async ({ page }, testIn
   expect(Math.abs(alignment.menuRight - alignment.containerRight)).toBeLessThanOrEqual(24);
 });
 
-test("navbar search button opens modal and toggle buttons use pointer cursor", async ({ page }, testInfo) => {
+test("navbar search button opens modal and toggle buttons use pointer cursor", { tag: "@academic" }, async ({ page }, testInfo) => {
   test.skip(testInfo.project.name === "mobile", "navbar search/theme controls are collapsed under mobile menu");
 
   await preparePage(page, "light");
@@ -195,7 +195,7 @@ test("inline code uses compact normal-weight typography", async ({ page }) => {
   expect(inlineCodeStyle.fontWeight).toBeLessThanOrEqual(400);
 });
 
-test("project cards hover with upward lift animation", async ({ page }, testInfo) => {
+test("project cards hover with upward lift animation", { tag: "@academic" }, async ({ page }, testInfo) => {
   test.skip(testInfo.project.name === "mobile", "hover-specific assertion is desktop-only");
 
   await preparePage(page, "light");
